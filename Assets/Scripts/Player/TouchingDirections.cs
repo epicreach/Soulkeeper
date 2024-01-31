@@ -37,7 +37,6 @@ public class TouchingDirections : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        Debug.Log(IsGrounded);
         isGround = collider.Cast(Vector2.down, castFilter, raycastHits, raycastDistance) > 0;
     }
 }
