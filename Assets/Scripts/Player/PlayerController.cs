@@ -4,10 +4,12 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Rendering;
 
+[RequireComponent(typeof(Rigidbody2D), typeof(TouchingDirections))]
 public class PlayerController : MonoBehaviour
 {
 
     private DefaultPlayerInputs input = null;
+    TouchingDirections touchingDirections;
 
     private Vector2 inputVector = Vector2.zero;
     public float walkSpeed = 5f;
@@ -18,6 +20,7 @@ public class PlayerController : MonoBehaviour
     private void Awake() {
         input = new DefaultPlayerInputs();
         rb = GetComponent<Rigidbody2D>();
+        touchingDirections = GetComponent<TouchingDirections>();
     }
 
     private void OnEnable() {
@@ -64,7 +67,9 @@ public class PlayerController : MonoBehaviour
 
     private void OnJumpPerformed(InputAction.CallbackContext context) {
         Debug.Log("Jumped");
-        rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
+        if (touchingDirections.isGrounded) {
+             rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
+        }
     }
 
 }
