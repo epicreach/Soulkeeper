@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 16064 MB
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 32669 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.7f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/luqas/Documents/GitHub/Soulkeeper
+C:/Users/FastOne/Documents/GitHub/Soulkeeper
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51705
-Successfully changed project path to: C:/Users/luqas/Documents/GitHub/Soulkeeper
-C:/Users/luqas/Documents/GitHub/Soulkeeper
+55650
+Successfully changed project path to: C:/Users/FastOne/Documents/GitHub/Soulkeeper
+C:/Users/FastOne/Documents/GitHub/Soulkeeper
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,64 +49,64 @@ C:/Users/luqas/Documents/GitHub/Soulkeeper
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10368] Host "[IP] 10.0.35.102 [Port] 0 [Flags] 2 [Guid] 1811005490 [EditorId] 1811005490 [Version] 1048832 [Id] WindowsEditor(7,FastTwo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [10428] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 467602371 [EditorId] 467602371 [Version] 1048832 [Id] WindowsEditor(7,TrueFastOne) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [10368] Host "[IP] 10.0.35.102 [Port] 0 [Flags] 2 [Guid] 1811005490 [EditorId] 1811005490 [Version] 1048832 [Id] WindowsEditor(7,FastTwo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10428] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 467602371 [EditorId] 467602371 [Version] 1048832 [Id] WindowsEditor(7,TrueFastOne) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 18.37 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 10.51 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/luqas/Documents/GitHub/Soulkeeper/Assets
+[Subsystems] Discovering subsystems at path C:/Users/FastOne/Documents/GitHub/Soulkeeper/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
-    Vendor:   Intel
+    Renderer: NVIDIA GeForce RTX 3070 Ti (ID=0x2482)
+    Vendor:   NVIDIA
     VRAM:     8032 MB
-    Driver:   31.0.101.4887
+    Driver:   31.0.15.4665
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007542 seconds.
-- Loaded All Assemblies, in  0.597 seconds
+Registered in 0.005742 seconds.
+- Loaded All Assemblies, in  0.400 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.465 seconds
-Domain Reload Profiling: 1060ms
-	BeginReloadAssembly (189ms)
+- Finished resetting the current domain, in  0.201 seconds
+Domain Reload Profiling: 600ms
+	BeginReloadAssembly (146ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (62ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (97ms)
-	LoadAllAssembliesAndSetupDomain (222ms)
-		LoadAssemblies (186ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (137ms)
+		LoadAssemblies (145ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (219ms)
-			TypeCache.Refresh (217ms)
-				TypeCache.ScanAssembly (197ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (134ms)
+				TypeCache.ScanAssembly (125ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (466ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (201ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (328ms)
+		SetupLoadedEditorAssemblies (158ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (13ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (215ms)
-			ProcessInitializeOnLoadMethodAttributes (81ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (101ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -114,57 +114,57 @@ Domain Reload Profiling: 1060ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\luqas\Documents\GitHub\Soulkeeper\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\luqas\Documents\GitHub\Soulkeeper\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.353 seconds
-Refreshing native plugins compatible for Editor in 6.06 ms, found 4 plugins.
+Symbol file LoadedFromMemory doesn't match image C:\Users\FastOne\Documents\GitHub\Soulkeeper\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\FastOne\Documents\GitHub\Soulkeeper\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.763 seconds
+Refreshing native plugins compatible for Editor in 4.47 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.347 seconds
-Domain Reload Profiling: 2696ms
-	BeginReloadAssembly (321ms)
+- Finished resetting the current domain, in  0.752 seconds
+Domain Reload Profiling: 1511ms
+	BeginReloadAssembly (126ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (58ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (66ms)
-	LoadAllAssembliesAndSetupDomain (882ms)
-		LoadAssemblies (534ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (564ms)
+		LoadAssemblies (385ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (477ms)
-			TypeCache.Refresh (372ms)
-				TypeCache.ScanAssembly (341ms)
-			ScanForSourceGeneratedMonoScriptInfo (78ms)
-			ResolveRequiredComponents (25ms)
-	FinalizeReload (1348ms)
+		AnalyzeDomain (251ms)
+			TypeCache.Refresh (210ms)
+				TypeCache.ScanAssembly (191ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (752ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1025ms)
+		SetupLoadedEditorAssemblies (606ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (142ms)
-			ProcessInitializeOnLoadAttributes (720ms)
-			ProcessInitializeOnLoadMethodAttributes (137ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (462ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 8.14 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 6.45 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6292 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 104 unused Assets / (422.1 KB). Loaded Objects now: 6753.
-Memory consumption went from 233.8 MB to 233.4 MB.
-Total: 7.761400 ms (FindLiveObjects: 0.714800 ms CreateObjectMapping: 0.641500 ms MarkObjects: 6.018100 ms  DeleteObjects: 0.385600 ms)
+Unloading 6288 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 119 unused Assets / (1.0 MB). Loaded Objects now: 6733.
+Memory consumption went from 231.4 MB to 230.5 MB.
+Total: 5.100100 ms (FindLiveObjects: 0.388300 ms CreateObjectMapping: 0.312600 ms MarkObjects: 3.970200 ms  DeleteObjects: 0.428200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -181,17 +181,1361 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1379505.478522 seconds.
-  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bucket 01.prefab
-  artifactKey: Guid(a5f86581f0f959e46aca2ca8cb010d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bucket 01.prefab using Guid(a5f86581f0f959e46aca2ca8cb010d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d41a1d308b3db3a9587fd538057c20') in 0.024301 seconds
+  Time since last request: 358177.524156 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c5e9a45d395a1fd41cbcc31ddaf045') in 0.002526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 568.035725 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Painting 05 A.prefab
+  artifactKey: Guid(2079d58d7ab1cca4db5c467b4f4da8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Painting 05 A.prefab using Guid(2079d58d7ab1cca4db5c467b4f4da8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f329647ff495007ab9c6b78985070f8b') in 0.004790 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 369.635579 seconds.
-  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Cage 01 A.prefab
-  artifactKey: Guid(be9c75d6b55d6af43bbcd961946993b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Cage 01 A.prefab using Guid(be9c75d6b55d6af43bbcd961946993b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e01dc9fb19691b9aa6f553e6f279d3') in 0.010779 seconds
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Pillar 01 A.prefab
+  artifactKey: Guid(264e2e2aa46b6834083d3e334747c819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Pillar 01 A.prefab using Guid(264e2e2aa46b6834083d3e334747c819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98cdddee747caf5c6866f03f3c1e93dc') in 0.002505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Pillar 01 B.prefab
+  artifactKey: Guid(92c074a50c144924f814597e3890f4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Pillar 01 B.prefab using Guid(92c074a50c144924f814597e3890f4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bba9ab52be4683c13be5fb114c0e81a') in 0.002091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.005985 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform 02.prefab
+  artifactKey: Guid(59325cec8dcea1c4ebf38b944c7261c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform 02.prefab using Guid(59325cec8dcea1c4ebf38b944c7261c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd319e2ece263e1ce65ec3e1420b7bfde') in 0.003350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform Broken 01.prefab
+  artifactKey: Guid(3a14fbfcf6fdcc347959340ae6bb24ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform Broken 01.prefab using Guid(3a14fbfcf6fdcc347959340ae6bb24ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055722a99fc56fe26316310c5453b678') in 0.003014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform 01.prefab
+  artifactKey: Guid(45f562af968c6304a970b66bcaf19902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform 01.prefab using Guid(45f562af968c6304a970b66bcaf19902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f343091060592636fc3d0cd5345f5c4') in 0.002593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform Broken 03.prefab
+  artifactKey: Guid(8f4c4bc1677dc334abee6b4b567467ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform Broken 03.prefab using Guid(8f4c4bc1677dc334abee6b4b567467ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f340bd3795f076bb4de70bf96cd96a0') in 0.002628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform Stair Group 01 B.prefab
+  artifactKey: Guid(6d073d624da034245ac7c0f4b277222d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform Stair Group 01 B.prefab using Guid(6d073d624da034245ac7c0f4b277222d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9be17317a4f4d2c835ce692812d27cd') in 0.003112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform Stair Group 01 E.prefab
+  artifactKey: Guid(cef7a77817d865b4bae1d684e2738919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform Stair Group 01 E.prefab using Guid(cef7a77817d865b4bae1d684e2738919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1f3256edee582b883611334ad9fd6e') in 0.002952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform Stair Part 01 B.prefab
+  artifactKey: Guid(0c574aee0d46803439bcdf752003151c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform Stair Part 01 B.prefab using Guid(0c574aee0d46803439bcdf752003151c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc702ab1478b14423338be65c630112') in 0.002628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform Stair Part 01 D.prefab
+  artifactKey: Guid(b116913d6ea24474db6393a76fd835a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform Stair Part 01 D.prefab using Guid(b116913d6ea24474db6393a76fd835a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f4e9ddc56d1e6b7bec7df8a3f55060') in 0.002339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Pot 01 A.prefab
+  artifactKey: Guid(f0d33b71505e9da4489e7b17ee9d99f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Pot 01 A.prefab using Guid(f0d33b71505e9da4489e7b17ee9d99f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c408a650c61a9c8fe672e3758fd2190') in 0.002446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Pot 02 B.prefab
+  artifactKey: Guid(1df495940352cbb42a15891fc7e5e2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Pot 02 B.prefab using Guid(1df495940352cbb42a15891fc7e5e2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ae6f47565532d7e60ef0d88b801b5cd') in 0.002505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Pot 03 B.prefab
+  artifactKey: Guid(b881c23e07756244d9d4e11744500598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Pot 03 B.prefab using Guid(b881c23e07756244d9d4e11744500598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f1efecd9f31d63b4ea5e0a0f20d692') in 0.002707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Pot 04 B.prefab
+  artifactKey: Guid(494461a92ffeb3140a29370485efb0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Pot 04 B.prefab using Guid(494461a92ffeb3140a29370485efb0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf9635efc4ac13d9b3fd6821e9939b6') in 0.002582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Pot 05 B.prefab
+  artifactKey: Guid(df576d4cb8691b646b368d3b5473a8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Pot 05 B.prefab using Guid(df576d4cb8691b646b368d3b5473a8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa3e4dae40a08971f32e35276801664') in 0.002255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Pulpit 01.prefab
+  artifactKey: Guid(04b1fc53e6c0fd040980e8a292c72382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Pulpit 01.prefab using Guid(04b1fc53e6c0fd040980e8a292c72382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f258117a9bb6d57b171aa871c994e665') in 0.002505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Rotten Food 02.prefab
+  artifactKey: Guid(48b5645fedc7ed04bb2ddd51c276a21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Rotten Food 02.prefab using Guid(48b5645fedc7ed04bb2ddd51c276a21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c84b161ffe93505f5323fa80561c125') in 0.002312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Rotten Food 03.prefab
+  artifactKey: Guid(9047cdd284366054ebdd4a39abe9fca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Rotten Food 03.prefab using Guid(9047cdd284366054ebdd4a39abe9fca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86429060271c986d87365f05cc1f73b6') in 0.002626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Shelf 01 B.prefab
+  artifactKey: Guid(1829e175e1365f646a704d1c54b8aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Shelf 01 B.prefab using Guid(1829e175e1365f646a704d1c54b8aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c54a7e9a1aa0234bc164b21b2c1596') in 0.006439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.008201 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Shelf Side 01 A.prefab
+  artifactKey: Guid(c6254d30a98f964458405a6ce2fc465f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Shelf Side 01 A.prefab using Guid(c6254d30a98f964458405a6ce2fc465f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd0751bf460c9d3afc2ccf97ff76d72') in 0.002759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Silver Candelabrum 01.prefab
+  artifactKey: Guid(3dfe258ad6224fa42afb3789801a8fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Silver Candelabrum 01.prefab using Guid(3dfe258ad6224fa42afb3789801a8fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eddccc5cbeb808fae35a96d1d0232ccf') in 0.008102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Silver Goblet 02.prefab
+  artifactKey: Guid(aa5539199704e984fb233944021cd54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Silver Goblet 02.prefab using Guid(aa5539199704e984fb233944021cd54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f14c0cb42e54741d0fba45e0d0bca5') in 0.002575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Silver Jug 01.prefab
+  artifactKey: Guid(17e8c9ec7bb3262449470d66d52c8f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Silver Jug 01.prefab using Guid(17e8c9ec7bb3262449470d66d52c8f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef6f08bc959af734c384e73fd7b984c') in 0.004441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Silver Powder Box 01.prefab
+  artifactKey: Guid(fc434cc587856644c85d07101dc8bd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Silver Powder Box 01.prefab using Guid(fc434cc587856644c85d07101dc8bd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b7186ee8ccd419bc4d901c8448fc9a') in 0.003614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Silver Sword.prefab
+  artifactKey: Guid(13ede1611fe1a62429b760222e788130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Silver Sword.prefab using Guid(13ede1611fe1a62429b760222e788130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e093631c5ec8c833b476159cd549a79') in 0.003229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Shelf Side 01 C.prefab
+  artifactKey: Guid(ce2e637a0486f7945879ef20b4fd3765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Shelf Side 01 C.prefab using Guid(ce2e637a0486f7945879ef20b4fd3765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7354cc2ae4d54c1fa2d36bd15bdaa03a') in 0.005533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Silver Gravy Boat 01.prefab
+  artifactKey: Guid(5ecf93825779d52438ef8e19914fd044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Silver Gravy Boat 01.prefab using Guid(5ecf93825779d52438ef8e19914fd044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b369a897d43c8b48b09d95c43331065') in 0.002627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Skull 03.prefab
+  artifactKey: Guid(179fbb5164275a14bacf02455e3382f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Skull 03.prefab using Guid(179fbb5164275a14bacf02455e3382f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b6db256b2acce5744f8d6e96d6451e') in 0.002483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Small Table 02.prefab
+  artifactKey: Guid(a59145e01b63a1e458232e8ff69ae712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Small Table 02.prefab using Guid(a59145e01b63a1e458232e8ff69ae712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04c4a2130a49c73db76e826cec645ed') in 0.002494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Spike Ball 01.prefab
+  artifactKey: Guid(564038775ec525c4db35558a6951ab32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Spike Ball 01.prefab using Guid(564038775ec525c4db35558a6951ab32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787e64e45669e2932e255df4a2d2ed71') in 0.002581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Stage 01.prefab
+  artifactKey: Guid(25f3c268d5a3fab4a88f1ff10699d2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Stage 01.prefab using Guid(25f3c268d5a3fab4a88f1ff10699d2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18ceaac7f61639967e86c635e7a3657') in 0.002433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Statue 01 A.prefab
+  artifactKey: Guid(315bc3d49e1cb0948a89aea9fdee1e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Statue 01 A.prefab using Guid(315bc3d49e1cb0948a89aea9fdee1e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bae48faab8df366c0e064c8b465c826') in 0.002368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Stone Bookshelf 01.prefab
+  artifactKey: Guid(e9f36509d4278484ca48fe5879e8f2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Stone Bookshelf 01.prefab using Guid(e9f36509d4278484ca48fe5879e8f2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038c79a96bf83d710a13b35748d9cb47') in 0.002550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Stone Coffin 01 C.prefab
+  artifactKey: Guid(6e17e8a1e4a7fcc4f91ca7f585dab0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Stone Coffin 01 C.prefab using Guid(6e17e8a1e4a7fcc4f91ca7f585dab0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44702594f28111275a5c7108ac6c0115') in 0.003400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Stone Table 01.prefab
+  artifactKey: Guid(94a64083bd887dc4fa351e923bb38d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Stone Table 01.prefab using Guid(94a64083bd887dc4fa351e923bb38d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7230f3d914f19185126ccb2e942eff50') in 0.002352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Stove 01.prefab
+  artifactKey: Guid(c72561eed9ae61b4da980a6b8cb0e9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Stove 01.prefab using Guid(c72561eed9ae61b4da980a6b8cb0e9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d756279be796d576474ceb540acbb9') in 0.003629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 77
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Swinging Blade Trap 01.prefab
+  artifactKey: Guid(c2d3adfe6f8dda345808bbf782a9ba12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Swinging Blade Trap 01.prefab using Guid(c2d3adfe6f8dda345808bbf782a9ba12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64d6640b416d1b8a47ddcacc192c6a7') in 0.002535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Table 01.prefab
+  artifactKey: Guid(feb84f17c2d4b8a4da17b7408b82feb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Table 01.prefab using Guid(feb84f17c2d4b8a4da17b7408b82feb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b2b11797bc9b13eae3eef5dac1f0a9') in 0.002135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Table 02.prefab
+  artifactKey: Guid(934d6339c4ee1794b86c3260445f289e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Table 02.prefab using Guid(934d6339c4ee1794b86c3260445f289e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93179046bba6853c053082ce22b37898') in 0.002053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Toilet Stick 01.prefab
+  artifactKey: Guid(d2a0ff61a73dd2c4a900a8b157e2d28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Toilet Stick 01.prefab using Guid(d2a0ff61a73dd2c4a900a8b157e2d28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee9632b79fb65bd0443c5dbbdc815e4') in 0.002415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Tool Hanger 01 A.prefab
+  artifactKey: Guid(8c4629fc9b389c14da1f13d39044e645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Tool Hanger 01 A.prefab using Guid(8c4629fc9b389c14da1f13d39044e645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15a2dff664556cf29ac5119db898386') in 0.002142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Torch 01.prefab
+  artifactKey: Guid(0eab102a84f26d649876c6762bdc6aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Torch 01.prefab using Guid(0eab102a84f26d649876c6762bdc6aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1b464c42112f3f586cf5db48b488ea') in 0.003109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Trapdoor 01.prefab
+  artifactKey: Guid(e662cae933f8b2f45be5b7a388b6f646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Trapdoor 01.prefab using Guid(e662cae933f8b2f45be5b7a388b6f646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a67aeec963d891b78bd1f5373745e82') in 0.010245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Wall Altar 01.prefab
+  artifactKey: Guid(99d8c716fc6c486498fab9b30686f47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Wall Altar 01.prefab using Guid(99d8c716fc6c486498fab9b30686f47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f465724af3f965a0dd68d0f086c484b') in 0.003697 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Wall Cave 02 B.prefab
+  artifactKey: Guid(8d0a2f6a5ba0e8148b168df3d5876310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Wall Cave 02 B.prefab using Guid(8d0a2f6a5ba0e8148b168df3d5876310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409aca4fe81ebe668324a6f6f408a135') in 0.003051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Window 01 B.prefab
+  artifactKey: Guid(18a0db5b0d194884298ef87fda402464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Window 01 B.prefab using Guid(18a0db5b0d194884298ef87fda402464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171dfdbfcb8f821857d7796a3f971ab6') in 0.022824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Window 01 C.prefab
+  artifactKey: Guid(71c85d48d23f90445baf52b31d6d5018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Window 01 C.prefab using Guid(71c85d48d23f90445baf52b31d6d5018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841e4fbb10a6a3b54bd4f8b98603f95e') in 0.009912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Wooden Coffin 01 A.prefab
+  artifactKey: Guid(e1bf0728b910e4c4c9ed78e528405a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Wooden Coffin 01 A.prefab using Guid(e1bf0728b910e4c4c9ed78e528405a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69cce80e0350cfb3b200ef6f8ca19150') in 0.002544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Wooden Coffin 02 A.prefab
+  artifactKey: Guid(7b9b61b14b0f32f469d2ae607fb60891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Wooden Coffin 02 A.prefab using Guid(7b9b61b14b0f32f469d2ae607fb60891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5463b693fcac98ed3563ce259193487f') in 0.002294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Window 03 A.prefab
+  artifactKey: Guid(71cb58612f26a64409e0029a150032fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Window 03 A.prefab using Guid(71cb58612f26a64409e0029a150032fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0755e86ae89d875c58a0971df1ebc5d1') in 0.005175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Door Iron Fence 01.prefab
+  artifactKey: Guid(bd10601af413afe44a25563b19be396f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Door Iron Fence 01.prefab using Guid(bd10601af413afe44a25563b19be396f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64bc8359c3f403e6a502dedd2762cf9b') in 0.005219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Door Wood 01.prefab
+  artifactKey: Guid(3332d33449639b44dbb1148ec417d162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Door Wood 01.prefab using Guid(3332d33449639b44dbb1148ec417d162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c31bbf5e7e030ca6a4457ef5c064c36') in 0.009224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Window 02 B.prefab
+  artifactKey: Guid(3d296e20410bfc841abee061d2ebb695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Window 02 B.prefab using Guid(3d296e20410bfc841abee061d2ebb695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ca1984a6f310da2fd60e7644ab9915') in 0.006753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Fry Pan 01.prefab
+  artifactKey: Guid(0804679b51942bf41b6d639901d8674c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Fry Pan 01.prefab using Guid(0804679b51942bf41b6d639901d8674c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c26658e9ebce2d5a8f83dc340002d3') in 0.003001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Gate 01.prefab
+  artifactKey: Guid(22744f634e6b2834a9dfbf55d60231ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Gate 01.prefab using Guid(22744f634e6b2834a9dfbf55d60231ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab53f332f05fe612d2dd22e90e81076') in 0.004895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Jar 01 A.prefab
+  artifactKey: Guid(12c6798fb9dab5d4691cb5387640edc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Jar 01 A.prefab using Guid(12c6798fb9dab5d4691cb5387640edc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04e52b4e756935ce548a1eca22ae0f7') in 0.002149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Jar 01 C.prefab
+  artifactKey: Guid(00e5d578cff053a4288842650452d273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Jar 01 C.prefab using Guid(00e5d578cff053a4288842650452d273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83c835751b09000dfb1e7b5fee16409') in 0.002253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Jar 01 E.prefab
+  artifactKey: Guid(ac4ffc4e368304b44a45399ddbdece80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Jar 01 E.prefab using Guid(ac4ffc4e368304b44a45399ddbdece80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed179ef41392f9633eb8b498fa4bb5ec') in 0.002475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Kettle 01.prefab
+  artifactKey: Guid(c7daa6c084bb7754d8a0a08ff4648ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Kettle 01.prefab using Guid(c7daa6c084bb7754d8a0a08ff4648ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e9ba44edacc65bc359c3322cca0a44') in 0.002437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Knife 01.prefab
+  artifactKey: Guid(87b42e05c0839ba4eb0e5fe3fc3642fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Knife 01.prefab using Guid(87b42e05c0839ba4eb0e5fe3fc3642fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a583804d50a26991809c31590fbd0e31') in 0.002534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Ladder 01 A.prefab
+  artifactKey: Guid(8fd68ebdb1ce9f9438ab57470e5ca8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Ladder 01 A.prefab using Guid(8fd68ebdb1ce9f9438ab57470e5ca8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd77a12b5e94efa6ce3ac02b9841f7be') in 0.002669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Lamp 01.prefab
+  artifactKey: Guid(431e51c0b410e5548b0c958cf3d15a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Lamp 01.prefab using Guid(431e51c0b410e5548b0c958cf3d15a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b5dd76a039904300dc0bb313b1f992') in 0.005587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Manacle 01 A.prefab
+  artifactKey: Guid(ec9fe670fd9bfce4e8d8b614c9421c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Manacle 01 A.prefab using Guid(ec9fe670fd9bfce4e8d8b614c9421c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a4b42a6d8df1edc2bc78123704659c2') in 0.002722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Door Iron 01.prefab
+  artifactKey: Guid(2b38e49cf741e374ebb12f665b71d18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Door Iron 01.prefab using Guid(2b38e49cf741e374ebb12f665b71d18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66fde40cb221d59dcd77a8b4aef474e8') in 0.022792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Painting 02 A.prefab
+  artifactKey: Guid(b163e80f8a0581946a51698e0d227c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Painting 02 A.prefab using Guid(b163e80f8a0581946a51698e0d227c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62bd244b9e3aecd1adf610049b5cc513') in 0.002220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Painting 03 A.prefab
+  artifactKey: Guid(989b73db3274a4244ac5e281d9eda30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Painting 03 A.prefab using Guid(989b73db3274a4244ac5e281d9eda30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7efa508dde6beadf3e6c85d3276dc4') in 0.002169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Painting 04 A.prefab
+  artifactKey: Guid(97a1648be86354346832624b72566df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Painting 04 A.prefab using Guid(97a1648be86354346832624b72566df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754753dfb6e7c56b28fd914f4f0422e6') in 0.002790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Manacle 01 B.prefab
+  artifactKey: Guid(dd2d1d0ff91e7a448b0775a2fc0f02f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Manacle 01 B.prefab using Guid(dd2d1d0ff91e7a448b0775a2fc0f02f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35138659c81894fc4b3056b5cf87e776') in 0.002802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Lectern.prefab
+  artifactKey: Guid(a8bbce04acb8df8408a95f831d151791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Lectern.prefab using Guid(a8bbce04acb8df8408a95f831d151791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbbfd088c94dee0ca03af74d25a7153') in 0.003004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Debris Brick 04 A.prefab
+  artifactKey: Guid(9e30da7f21e294d4e8a23801f55f9be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Debris Brick 04 A.prefab using Guid(9e30da7f21e294d4e8a23801f55f9be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655bb02d154150128d8a5cefe24cf5d1') in 0.003481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Debris Brick 04 B.prefab
+  artifactKey: Guid(c0d159320fc3ea34284960fe76061691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Debris Brick 04 B.prefab using Guid(c0d159320fc3ea34284960fe76061691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a075ec743a3f2fbc73d1c2a8d35036ee') in 0.003779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Cupboard 01.prefab
+  artifactKey: Guid(2f2f40c9e61c0a34ebb5ff676112a342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Cupboard 01.prefab using Guid(2f2f40c9e61c0a34ebb5ff676112a342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe39e0cf120c79f4deeefdd974ea714') in 0.002415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Debris Wood 01 C.prefab
+  artifactKey: Guid(f594d9ba859a7d448b0063a78521ee5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Debris Wood 01 C.prefab using Guid(f594d9ba859a7d448b0063a78521ee5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6ce3ac8eb6d90374fd507ea8c38eb8') in 0.002609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Debris Wood 01 A.prefab
+  artifactKey: Guid(ce0e18c5c1bce204a8554533338c7c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Debris Wood 01 A.prefab using Guid(ce0e18c5c1bce204a8554533338c7c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3236eb1147e4d82b48e9f7e0981a1b34') in 0.003014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Debris Brick 03.prefab
+  artifactKey: Guid(af429afccbe99f743bf01f60834feedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Debris Brick 03.prefab using Guid(af429afccbe99f743bf01f60834feedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7021d3325991c9d6ca8d3789dddf9d2') in 0.003573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Package 01.prefab
+  artifactKey: Guid(079daf16bc138d9499e851f25ffd9d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Package 01.prefab using Guid(079daf16bc138d9499e851f25ffd9d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc83db6d964221f6d1984e7615b75c9') in 0.003530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Ladder 01 C.prefab
+  artifactKey: Guid(8fc0a7bf2df6bbf4f807e78c0a5dfeac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Ladder 01 C.prefab using Guid(8fc0a7bf2df6bbf4f807e78c0a5dfeac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782da3ce3321f7f752d301d0265d7389') in 0.002958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Window 02 A.prefab
+  artifactKey: Guid(469f936d9242cd347860e775f2a14173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Window 02 A.prefab using Guid(469f936d9242cd347860e775f2a14173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c250405b03bc88807f4517295bad552') in 0.010172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Dressing Table 01.prefab
+  artifactKey: Guid(6498f6eb0ae56504a99a2e84256986c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Dressing Table 01.prefab using Guid(6498f6eb0ae56504a99a2e84256986c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94f53a195d0c9df8b03e1ba5ef81164') in 0.003597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Window 03 B.prefab
+  artifactKey: Guid(1e703a4d3d36d8d488173792d407315d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Window 03 B.prefab using Guid(1e703a4d3d36d8d488173792d407315d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd3af3527d46ce4de7ff8755f6f836d') in 0.006027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Debris Wood 01 B.prefab
+  artifactKey: Guid(00ebe6dcfb483504ca275b1cbb3b4f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Debris Wood 01 B.prefab using Guid(00ebe6dcfb483504ca275b1cbb3b4f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ebaeb4902e594bbcfae0362c5edfc75') in 0.002767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Small Table 01.prefab
+  artifactKey: Guid(2261fdd0f37491146aa9e9c6dff03d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Small Table 01.prefab using Guid(2261fdd0f37491146aa9e9c6dff03d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d522406faf76c2eda97e08ef0d66fc6') in 0.002558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.364950 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Candlestick 01.prefab
+  artifactKey: Guid(ae7eed29be508c24984a98627db9c41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Candlestick 01.prefab using Guid(ae7eed29be508c24984a98627db9c41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc076cd3a18b753b190c79756e78133') in 0.004813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Coin Pile 01.prefab
+  artifactKey: Guid(f57f22141aa27324cb996fcefb4d0111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Coin Pile 01.prefab using Guid(f57f22141aa27324cb996fcefb4d0111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b89da812afb8864ea8a5f6142c3ef80') in 0.004191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Church Statue 01.prefab
+  artifactKey: Guid(683ae2c4de4141f48b8f8012d6d4974d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Church Statue 01.prefab using Guid(683ae2c4de4141f48b8f8012d6d4974d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796df56d511f1b0bed5fdafaa581b5d8') in 0.002649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Ceiling Chain.prefab
+  artifactKey: Guid(86d0e9a36a60f6a4485bfb64f13d2ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Ceiling Chain.prefab using Guid(86d0e9a36a60f6a4485bfb64f13d2ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2959f5baf41d6cb5dc2afa3e266466') in 0.003634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Chest 02.prefab
+  artifactKey: Guid(ee8daba512062fc4689a9371970d086b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Chest 02.prefab using Guid(ee8daba512062fc4689a9371970d086b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ddefdd29d77ae03e71a6a2b509aaca1') in 0.003241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Chair 01 Side.prefab
+  artifactKey: Guid(671c0d4dcd173fb4cafc2ae66138c2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Chair 01 Side.prefab using Guid(671c0d4dcd173fb4cafc2ae66138c2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a64354bc9ba9916ef7939950ac16c9') in 0.003260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Chair 01.prefab
+  artifactKey: Guid(92f5bbb143212dd45a56e31ad979f2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Chair 01.prefab using Guid(92f5bbb143212dd45a56e31ad979f2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b62ca1f263e0b6e4036948584394198') in 0.003574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Chair 02 A.prefab
+  artifactKey: Guid(6fbc229a57c32554aaeaec311f914b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Chair 02 A.prefab using Guid(6fbc229a57c32554aaeaec311f914b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f553a3a8de65e38a0923ef00a17574f6') in 0.003839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Caudron Tool 02.prefab
+  artifactKey: Guid(49d165a5d42659947920dfaab3692a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Caudron Tool 02.prefab using Guid(49d165a5d42659947920dfaab3692a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6432d550e502d3e54032fed78cf9a05e') in 0.003659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Chair 02 Side A.prefab
+  artifactKey: Guid(2e994115e34115a4595fee8340d52ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Chair 02 Side A.prefab using Guid(2e994115e34115a4595fee8340d52ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1c4b5658a72e4f478f0cbe6ef84da9') in 0.003207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Caudron 02.prefab
+  artifactKey: Guid(d3c074d49ce439f47aa124976c6d89ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Caudron 02.prefab using Guid(d3c074d49ce439f47aa124976c6d89ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0fa124e7ab31d825751121d3f0d8b77') in 0.002571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Caudron Tool 01.prefab
+  artifactKey: Guid(a9fb57a5f81cdeb4b9b82a83589927d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Caudron Tool 01.prefab using Guid(a9fb57a5f81cdeb4b9b82a83589927d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3147c59cb37800fa53c325b9ad525133') in 0.003071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Coin Pile 05.prefab
+  artifactKey: Guid(dea4d2bd74f89da458c14d310283e30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Coin Pile 05.prefab using Guid(dea4d2bd74f89da458c14d310283e30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877c266cd9280c272e65ccfe779c6ca7') in 0.003046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.014685 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Candle 01.prefab
+  artifactKey: Guid(4245afde638cf0e4bb716f20e40e2ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Candle 01.prefab using Guid(4245afde638cf0e4bb716f20e40e2ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5bb713b1b3d7c969b5897c0be7f55ed') in 0.003330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Candle 07.prefab
+  artifactKey: Guid(80f3696069a975943823e237015d7157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Candle 07.prefab using Guid(80f3696069a975943823e237015d7157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202c7316dee26bbc3e992cfe358f7149') in 0.003502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bottle 01 A.prefab
+  artifactKey: Guid(76eee48d4f8c1fb4dbd60ce81a196531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bottle 01 A.prefab using Guid(76eee48d4f8c1fb4dbd60ce81a196531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb10f5f237a55e1331d2ea5fa58c6e6') in 0.002820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Book Group 13.prefab
+  artifactKey: Guid(c9687d24c39494043b11cda0e56998f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Book Group 13.prefab using Guid(c9687d24c39494043b11cda0e56998f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d62f49846386ba0cbb46fcc5cdad78') in 0.003317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Candle 08.prefab
+  artifactKey: Guid(018bb4400029ba54f920ea7f6dfc3e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Candle 08.prefab using Guid(018bb4400029ba54f920ea7f6dfc3e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152f4dc689332b30aaae6d094cee94c9') in 0.003943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Candle Holder 01.prefab
+  artifactKey: Guid(4ec59767ee220674995fb2654b097d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Candle Holder 01.prefab using Guid(4ec59767ee220674995fb2654b097d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c28b8c1fbb76c5a0f8b9498bd0d0d40') in 0.003779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Book Group 09.prefab
+  artifactKey: Guid(16a934b2db2829a44844b5ad05279250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Book Group 09.prefab using Guid(16a934b2db2829a44844b5ad05279250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096d21c2ceafdbbf28d1e87539305241') in 0.002967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Cage 01 A.prefab
+  artifactKey: Guid(be9c75d6b55d6af43bbcd961946993b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Cage 01 A.prefab using Guid(be9c75d6b55d6af43bbcd961946993b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14e8fd571bddde9ba405cf33920a227') in 0.002545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Cabinet 02.prefab
+  artifactKey: Guid(54d0e53eabeb06e4c9c0a31ae68fa53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Cabinet 02.prefab using Guid(54d0e53eabeb06e4c9c0a31ae68fa53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd465547742b6e6fffe17136b7e9bf42') in 0.002790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bottle 03 A.prefab
+  artifactKey: Guid(0be8fcb99d5db504e898ff35546fea8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bottle 03 A.prefab using Guid(0be8fcb99d5db504e898ff35546fea8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c32fbe90210ab01b6aef3b93a34be5') in 0.002837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bookshelf Side 01 A.prefab
+  artifactKey: Guid(843cbc142ed69b540a686579abbeddfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bookshelf Side 01 A.prefab using Guid(843cbc142ed69b540a686579abbeddfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bbb0a9ef3587a1f47d33501177a8891') in 0.002890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bookshelf 02 A.prefab
+  artifactKey: Guid(0b2089ea13522e44cac103355f071818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bookshelf 02 A.prefab using Guid(0b2089ea13522e44cac103355f071818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9351a09d22218355c44a04a3186bf02') in 0.003107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bottle 04 B.prefab
+  artifactKey: Guid(7864c7c852299604e812f644263c3422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bottle 04 B.prefab using Guid(7864c7c852299604e812f644263c3422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65bdb44303f4a9fb9cd7c7568114b4d8') in 0.003062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Cage 01 C.prefab
+  artifactKey: Guid(d4fca8472b218cb46abed5b591cd06bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Cage 01 C.prefab using Guid(d4fca8472b218cb46abed5b591cd06bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7ee7720dcad3e7428fdb2997507804') in 0.002514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Book Group 12.prefab
+  artifactKey: Guid(4f3f856807c3d2e42973cb2e204b6ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Book Group 12.prefab using Guid(4f3f856807c3d2e42973cb2e204b6ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f57f5d57804929c2f4ec1d3c13fb7f50') in 0.002468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bookshelf 02 B.prefab
+  artifactKey: Guid(dfd086b71889dc24eac9b9b5c5e31696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bookshelf 02 B.prefab using Guid(dfd086b71889dc24eac9b9b5c5e31696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e8188ed7ea21887e95ae9bb9bcfbbc') in 0.003162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bookend 01.prefab
+  artifactKey: Guid(5e0c979249ca65349aa8f211078eb5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bookend 01.prefab using Guid(5e0c979249ca65349aa8f211078eb5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27568c6a4562d3511b8ee76977384e1c') in 0.003010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bottle 03 B.prefab
+  artifactKey: Guid(0776172b961114c4692955934d428868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bottle 03 B.prefab using Guid(0776172b961114c4692955934d428868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e857117c2c07b18f93c31d1e9404ac') in 0.002681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Candle 06.prefab
+  artifactKey: Guid(6ede196f513f580498e70eff21916504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Candle 06.prefab using Guid(6ede196f513f580498e70eff21916504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128a3d8d8262cac8dc43740ec298bc28') in 0.003181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Candle 04.prefab
+  artifactKey: Guid(cf1fda341622a1b418df977cbf9d3be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Candle 04.prefab using Guid(cf1fda341622a1b418df977cbf9d3be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ad229e3c6df0c1f80bd3debce13c84') in 0.003304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Book Group 16.prefab
+  artifactKey: Guid(5cdf0b3a40afb7343883ca6293762d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Book Group 16.prefab using Guid(5cdf0b3a40afb7343883ca6293762d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02cdb12d82e0fa3223f2650756883f9') in 0.002492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 2.065918 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Book 04 A.prefab
+  artifactKey: Guid(ea576b7784a1c6e42b7385e1c495f0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Book 04 A.prefab using Guid(ea576b7784a1c6e42b7385e1c495f0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a28d50c326629862e99b677db5103e') in 0.003768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Book 05 A.prefab
+  artifactKey: Guid(722e684565dfc99409d14d11496ee09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Book 05 A.prefab using Guid(722e684565dfc99409d14d11496ee09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c68a20045eff8b80dc5f607b5b135f9') in 0.002711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Book Group 02.prefab
+  artifactKey: Guid(7d82a5ed782a533489feb29fe6fd4a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Book Group 02.prefab using Guid(7d82a5ed782a533489feb29fe6fd4a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e0353fa8fab2cb0ce5a5b0589c043c') in 0.003084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Book 05 B.prefab
+  artifactKey: Guid(5e5041d208d2fef4898b6ae059f01161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Book 05 B.prefab using Guid(5e5041d208d2fef4898b6ae059f01161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0351119ebe2097011055024ce05fa4b9') in 0.003366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Book Group 05.prefab
+  artifactKey: Guid(f02abbf9efdc44848a0f6f2fff716bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Book Group 05.prefab using Guid(f02abbf9efdc44848a0f6f2fff716bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4960422f504216a86d1ab04116952c15') in 0.003274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Book 01 B.prefab
+  artifactKey: Guid(2535a69753e3b4e4c9eb575bd09e8a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Book 01 B.prefab using Guid(2535a69753e3b4e4c9eb575bd09e8a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e7afa48a89b162e5441cd1e97394011') in 0.004135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bone 05.prefab
+  artifactKey: Guid(b450db031009e974aa08f1cdff2cadd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bone 05.prefab using Guid(b450db031009e974aa08f1cdff2cadd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f39f651f9084fff59fdc3dfb4f81562a') in 0.003923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bone 01.prefab
+  artifactKey: Guid(f519417a4ecf6274b84e28413c8b8e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bone 01.prefab using Guid(f519417a4ecf6274b84e28413c8b8e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5749d3eb10eb3c698c2fc42bb4732e') in 0.004201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bone 03.prefab
+  artifactKey: Guid(939e15750b0551a44b5612603a2d3e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bone 03.prefab using Guid(939e15750b0551a44b5612603a2d3e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3fdde779e0cf79f610c2b12f3584ca') in 0.004396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bench 02 B.prefab
+  artifactKey: Guid(cae6cee076a62d0489d31c27845fb6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bench 02 B.prefab using Guid(cae6cee076a62d0489d31c27845fb6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c916632fa69858f6179b43c098d2e712') in 0.003384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Book 02 B.prefab
+  artifactKey: Guid(d4ac3b63f152bf9469fcc03adf25d645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Book 02 B.prefab using Guid(d4ac3b63f152bf9469fcc03adf25d645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ab213cbdd0a42159407445a3891edf') in 0.003487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Basket 01.prefab
+  artifactKey: Guid(b3f1224992d3ecd4b9208f43d0c4abad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Basket 01.prefab using Guid(b3f1224992d3ecd4b9208f43d0c4abad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2236463cbbf89ecff1fbe883c93d203b') in 0.003959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Beam 03 A.prefab
+  artifactKey: Guid(05f5d6480bf7a2c4aaba7ddc3a3a9c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Beam 03 A.prefab using Guid(05f5d6480bf7a2c4aaba7ddc3a3a9c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a402ee1246df979a034406ffc07aad45') in 0.004913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Beam 03 B.prefab
+  artifactKey: Guid(f7e9696bec5924a429ffd585ae1485cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Beam 03 B.prefab using Guid(f7e9696bec5924a429ffd585ae1485cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2400895f9bb5c81dd11cea70b66c36') in 0.003760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bench 02 A.prefab
+  artifactKey: Guid(d0aa66380aba03240b257c4865fc07d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bench 02 A.prefab using Guid(d0aa66380aba03240b257c4865fc07d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0686b94931e319c787a0ffe38a8e1cb3') in 0.003222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bed 02 B.prefab
+  artifactKey: Guid(5b3f7b15fc39714469245ec7804476e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bed 02 B.prefab using Guid(5b3f7b15fc39714469245ec7804476e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cdcc0efd128515b4853b8d1402b2977') in 0.002619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Book Group 03.prefab
+  artifactKey: Guid(3497b32eec4276542b5ea4c113843fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Book Group 03.prefab using Guid(3497b32eec4276542b5ea4c113843fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83418493c1e295d5926e853ac3b2b3a8') in 0.002645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Book 02 A.prefab
+  artifactKey: Guid(88a6f3fd62798d34fadede8abf967fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Book 02 A.prefab using Guid(88a6f3fd62798d34fadede8abf967fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c2ee5043b04962293113b4ebde1f27') in 0.002588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bench 01 A.prefab
+  artifactKey: Guid(a2fcc2cad1694ac42949e8e2502be729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bench 01 A.prefab using Guid(a2fcc2cad1694ac42949e8e2502be729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9672a063dc213717c2bbfeee725028d3') in 0.002758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Book 06 A.prefab
+  artifactKey: Guid(0b3dddcba4d55aa469330753f914c4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Book 06 A.prefab using Guid(0b3dddcba4d55aa469330753f914c4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9563426df6e0aa86c9d8a3f9d4188ba8') in 0.002928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.433880 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Arrow 01.prefab
+  artifactKey: Guid(867a9e2df8390d442b1da06371221ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Arrow 01.prefab using Guid(867a9e2df8390d442b1da06371221ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684038009977ec5f79f86ffc2d0f3d1a') in 0.002685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Barrel 01 B.prefab
+  artifactKey: Guid(76feb5db01577884f87f527fce690711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Barrel 01 B.prefab using Guid(76feb5db01577884f87f527fce690711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32c1b924109d9c8c14351a9c5cf05be') in 0.002488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bag 04.prefab
+  artifactKey: Guid(5b7eacb4e61c93144a1e052b463f34a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bag 04.prefab using Guid(5b7eacb4e61c93144a1e052b463f34a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5083953be6934c90a87f7f6e47aa92') in 0.002530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bag 03.prefab
+  artifactKey: Guid(bbf84211b4307be43a937d7fec46e5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Bag 03.prefab using Guid(bbf84211b4307be43a937d7fec46e5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ea2b671911dfb5da25c3029be8630b') in 0.002941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Barrel 02 B.prefab
+  artifactKey: Guid(6c2b55f07085aaa4d88d906caa8b9b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Barrel 02 B.prefab using Guid(6c2b55f07085aaa4d88d906caa8b9b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170c1a08dee5ffaf9d906d7ff61d463b') in 0.003043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Banner 01 C.prefab
+  artifactKey: Guid(7bc0d8a3425b1cc4aa839a3d1b22bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Banner 01 C.prefab using Guid(7bc0d8a3425b1cc4aa839a3d1b22bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd03be2181eacf04f21c53206854266') in 0.002484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Barrel 02 A.prefab
+  artifactKey: Guid(7ff2328aa391d9a488a48d82eff415e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Barrel 02 A.prefab using Guid(7ff2328aa391d9a488a48d82eff415e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7421d7e3e2246ed9071debd458fe9e4') in 0.002712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 2187.937974 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Dirt/PF Dungeon Wall Dirt - 04.prefab
+  artifactKey: Guid(25468e7645e30f84bbf09744c9fe7352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Dirt/PF Dungeon Wall Dirt - 04.prefab using Guid(25468e7645e30f84bbf09744c9fe7352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ecadf0dca93998bfaae536d013365ce') in 0.001801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 74.780526 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Dirt/PF Dungeon Wall Dirt - 13.prefab
+  artifactKey: Guid(964f2d53da22b844abb80f7788ae881c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Dirt/PF Dungeon Wall Dirt - 13.prefab using Guid(964f2d53da22b844abb80f7788ae881c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fffffffbdcc9c8e1010c835914ed7e4') in 0.001708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1383.476288 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Dirt/PF Dungeon Wall Dirt - 09.prefab
+  artifactKey: Guid(756de4d50640049478a316a33954ef70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Dirt/PF Dungeon Wall Dirt - 09.prefab using Guid(756de4d50640049478a316a33954ef70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99128617a73b3565baa942a94932db74') in 0.007601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 286.800424 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Deco/PF Dungeon Wall Deco - Outfall 01.prefab
+  artifactKey: Guid(8460a8462faed5e42ad2997b6a44c43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Deco/PF Dungeon Wall Deco - Outfall 01.prefab using Guid(8460a8462faed5e42ad2997b6a44c43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0e46ac94313fe4e961fdfd199ebd81') in 0.009628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 10.308804 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Deco/PF Dungeon Wall Deco - Prison 01 A.prefab
+  artifactKey: Guid(a6cedc1ce28190d428f1a99d9421c902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Deco/PF Dungeon Wall Deco - Prison 01 A.prefab using Guid(a6cedc1ce28190d428f1a99d9421c902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b64f5ef90b71f43d3edd473d561723b') in 0.002447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.564049 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Deco/PF Dungeon Wall Deco - Prison 01 B.prefab
+  artifactKey: Guid(7be85417246c8af44905dc9cb8e6e6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Deco/PF Dungeon Wall Deco - Prison 01 B.prefab using Guid(7be85417246c8af44905dc9cb8e6e6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a11434d897070151531da211dae946') in 0.002510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.432555 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Deco/PF Dungeon Wall Deco - Window 01 A.prefab
+  artifactKey: Guid(00f599e74c0b0154d8f11697b9dc849b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Deco/PF Dungeon Wall Deco - Window 01 A.prefab using Guid(00f599e74c0b0154d8f11697b9dc849b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a559fcbe93e2105a180042b0af4bdf21') in 0.014108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.686334 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Deco/PF Dungeon Wall Deco - Window 01 B.prefab
+  artifactKey: Guid(777ea641d1796314fbe8aae8d9ad32ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Deco/PF Dungeon Wall Deco - Window 01 B.prefab using Guid(777ea641d1796314fbe8aae8d9ad32ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae741be9cdf100e83e5a457e9c429d5c') in 0.003728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 4.264162 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Deco/TX Dungeon Wall Deco - Break 01.prefab
+  artifactKey: Guid(e2143693ff01a0f4bb544717835e43b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Deco/TX Dungeon Wall Deco - Break 01.prefab using Guid(e2143693ff01a0f4bb544717835e43b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3eab6da20c12b66d2f270b9314b9fe0') in 0.005389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 494.795275 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Deco/PF Dungeon Wall Deco - Dent 06.prefab
+  artifactKey: Guid(abb38314e8f9fbf48a3e513d008b8e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Deco/PF Dungeon Wall Deco - Dent 06.prefab using Guid(abb38314e8f9fbf48a3e513d008b8e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70af8f194d6d8c829a774efccd153390') in 0.002786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 2.917234 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Deco/PF Dungeon Wall Deco - Dent 01 B.prefab
+  artifactKey: Guid(98e33e4e97c123f4faba064d5bfd8f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Deco/PF Dungeon Wall Deco - Dent 01 B.prefab using Guid(98e33e4e97c123f4faba064d5bfd8f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb88e525b495ec71ad70d915ee9f923') in 0.006714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.393420 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Deco/PF Dungeon Wall Deco - Dent 01 A.prefab
+  artifactKey: Guid(9b8645b5edcf1ce4ea0fe106dc7e92cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Deco/PF Dungeon Wall Deco - Dent 01 A.prefab using Guid(9b8645b5edcf1ce4ea0fe106dc7e92cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127a657b25e1867675b031b6d49f930c') in 0.006402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 6.392671 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Deco/PF Dungeon Wall Deco - Dent 02 B.prefab
+  artifactKey: Guid(09ff54b6e1c742a4d9504b413beac157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Deco/PF Dungeon Wall Deco - Dent 02 B.prefab using Guid(09ff54b6e1c742a4d9504b413beac157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470fc1ab0ccb837b6b6b581ca1e1b570') in 0.006436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 15.472625 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Dirt/PF Dungeon Wall Dirt - 10.prefab
+  artifactKey: Guid(7711a8b69005c764ba4479e710094593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Dirt/PF Dungeon Wall Dirt - 10.prefab using Guid(7711a8b69005c764ba4479e710094593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075eb6875f8e7aef493ea91c23ce0bd4') in 0.001559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 7.311490 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Dirt/PF Dungeon Wall Dirt - 11.prefab
+  artifactKey: Guid(4f94e73cfdf67ac429b5ff16b284bce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Dirt/PF Dungeon Wall Dirt - 11.prefab using Guid(4f94e73cfdf67ac429b5ff16b284bce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710b63da872d953fc06fb562dcfa7280') in 0.001747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.344376 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Dirt/PF Dungeon Wall Dirt - 14.prefab
+  artifactKey: Guid(8f86cf1e6af0b124abdbb6ccc79bdf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Dirt/PF Dungeon Wall Dirt - 14.prefab using Guid(8f86cf1e6af0b124abdbb6ccc79bdf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a7de7551a239f8cda8f735a635c232') in 0.005707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.360303 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Dirt/PF Dungeon Wall Dirt - Kitchen 01.prefab
+  artifactKey: Guid(fae4ab04a1ed46b468399c7bc8bdd35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Dirt/PF Dungeon Wall Dirt - Kitchen 01.prefab using Guid(fae4ab04a1ed46b468399c7bc8bdd35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c42794d2b54892faaa5bd6ca7dc2cde') in 0.001989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 6.745430 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Spider Web/PF Dungeon Spider Web - 07.prefab
+  artifactKey: Guid(0d654333112018241b27862afc4b7a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Spider Web/PF Dungeon Spider Web - 07.prefab using Guid(0d654333112018241b27862afc4b7a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70da2e283efa4d65e58e79664525ca1') in 0.009074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.447237 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Spider Web/PF Dungeon Spider Web - 08.prefab
+  artifactKey: Guid(c151e798e115fe94b9c3b5bcad2db15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Spider Web/PF Dungeon Spider Web - 08.prefab using Guid(c151e798e115fe94b9c3b5bcad2db15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60293611b2908083352d69547d5273e3') in 0.005825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.664736 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Spider Web/PF Dungeon Spider Web - 06.prefab
+  artifactKey: Guid(fb5e42a253a52ec4195821f64ca3fae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Spider Web/PF Dungeon Spider Web - 06.prefab using Guid(fb5e42a253a52ec4195821f64ca3fae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50c130d970dc9959578c080d9fafa04') in 0.006220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.267286 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Spider Web/PF Dungeon Spider Web - 05.prefab
+  artifactKey: Guid(609a059a40abbb84287bea6db6d5f4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Spider Web/PF Dungeon Spider Web - 05.prefab using Guid(609a059a40abbb84287bea6db6d5f4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab393596dcc56a25fe4875eb40a027d3') in 0.005821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.336109 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Spider Web/PF Dungeon Spider Web - 04.prefab
+  artifactKey: Guid(1ed3740c4d53e8645b1b0aa180d6893c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Spider Web/PF Dungeon Spider Web - 04.prefab using Guid(1ed3740c4d53e8645b1b0aa180d6893c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa70ac27bd45e52075fa1b050ad36e9') in 0.005634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.457964 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Spider Web/PF Dungeon Spider Web - 03.prefab
+  artifactKey: Guid(1df9f1f13ecca1d4d83ed5998fcfc773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Spider Web/PF Dungeon Spider Web - 03.prefab using Guid(1df9f1f13ecca1d4d83ed5998fcfc773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be00f074f094c5f51dcdc338f6f8d654') in 0.005631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 40.016726 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Deco/PF Dungeon Wall Deco - Dent 03.prefab
+  artifactKey: Guid(0b23f9036149d6b4ab20baaad5ca1f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Deco/PF Dungeon Wall Deco - Dent 03.prefab using Guid(0b23f9036149d6b4ab20baaad5ca1f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be3f639fb084cbb9a14aac22f009327') in 0.006851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 7.974772 seconds.
+  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Deco/PF Dungeon Wall Deco - Dent 05.prefab
+  artifactKey: Guid(508d0e35dc3befd41a1e58b6e6c5abac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Wall Deco/PF Dungeon Wall Deco - Dent 05.prefab using Guid(508d0e35dc3befd41a1e58b6e6c5abac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98bc606bb66926865d17ad690ab39361') in 0.006752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
