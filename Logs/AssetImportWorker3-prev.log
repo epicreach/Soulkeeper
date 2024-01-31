@@ -1,0 +1,314 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'sv' Physical Memory: 16295 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/isacs/Documents/GitHub/Soulkeeper
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+55287
+Successfully changed project path to: C:/Users/isacs/Documents/GitHub/Soulkeeper
+C:/Users/isacs/Documents/GitHub/Soulkeeper
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16988] Host "[IP] 192.168.50.198 [Port] 0 [Flags] 2 [Guid] 3772989886 [EditorId] 3772989886 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OOJ3ENC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [16988] Host "[IP] 192.168.50.198 [Port] 0 [Flags] 2 [Guid] 3772989886 [EditorId] 3772989886 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OOJ3ENC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 11.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/isacs/Documents/GitHub/Soulkeeper/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   31.0.15.3699
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004890 seconds.
+- Loaded All Assemblies, in  0.340 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.256 seconds
+Domain Reload Profiling: 595ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (136ms)
+		LoadAssemblies (104ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (133ms)
+				TypeCache.ScanAssembly (121ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (257ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (199ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (130ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\isacs\Documents\GitHub\Soulkeeper\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\isacs\Documents\GitHub\Soulkeeper\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.814 seconds
+Refreshing native plugins compatible for Editor in 4.28 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.955 seconds
+Domain Reload Profiling: 1765ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (575ms)
+		LoadAssemblies (370ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (285ms)
+			TypeCache.Refresh (214ms)
+				TypeCache.ScanAssembly (195ms)
+			ScanForSourceGeneratedMonoScriptInfo (36ms)
+			ResolveRequiredComponents (34ms)
+	FinalizeReload (955ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (776ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (583ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 4.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6296 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 104 unused Assets / (423.4 KB). Loaded Objects now: 6757.
+Memory consumption went from 231.7 MB to 231.3 MB.
+Total: 4.096100 ms (FindLiveObjects: 0.410800 ms CreateObjectMapping: 0.436600 ms MarkObjects: 3.037200 ms  DeleteObjects: 0.210700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10827.793026 seconds.
+  path: Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_Attack2.png
+  artifactKey: Guid(a43d54c57e797b54fb99dc5f03b508c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_Attack2.png using Guid(a43d54c57e797b54fb99dc5f03b508c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98d70baab4e523d0b21d6b368756e5a') in 0.052383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_Attack2NoMovement.png
+  artifactKey: Guid(8fa09b107189b6b48983d2c479d6714f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_Attack2NoMovement.png using Guid(8fa09b107189b6b48983d2c479d6714f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd95707662ecd3e812fba2678e1a3405') in 0.004175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_CrouchFull.png
+  artifactKey: Guid(3a134d496980428468830086911b7c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_CrouchFull.png using Guid(3a134d496980428468830086911b7c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4a7bc4d78845b4d41a4b8b65f07c2c') in 0.001899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_Dash.png
+  artifactKey: Guid(c98ce32c894e9aa47a1a7f1d80cf9a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_Dash.png using Guid(c98ce32c894e9aa47a1a7f1d80cf9a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6db5fb78095ed688b8a9e1569493a2') in 0.002525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_AttackComboNoMovement.png
+  artifactKey: Guid(9a616707d19320a478c23bcc2e7b0513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_AttackComboNoMovement.png using Guid(9a616707d19320a478c23bcc2e7b0513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf4d89189650f96612e6785b2cc6331') in 0.006955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_JumpFallInbetween.png
+  artifactKey: Guid(c281278d84b4201419e0e87dbaf2b84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_JumpFallInbetween.png using Guid(c281278d84b4201419e0e87dbaf2b84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14cb0864e66937186d34ad17bab300e') in 0.001635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_WallClimb.png
+  artifactKey: Guid(a06607686583b094eaed7ad89d872f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_WallClimb.png using Guid(a06607686583b094eaed7ad89d872f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a46d5eb1bba6bf6e8c859f3718c5bc') in 0.001347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_Fall.png
+  artifactKey: Guid(430b5046bef92334daae75377607ad96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_Fall.png using Guid(430b5046bef92334daae75377607ad96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689d31bb89004c2e0fcf9156af61b341') in 0.001251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_WallSlide.png
+  artifactKey: Guid(37e59ca694d8a074cb80aa0ba8c2b20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_WallSlide.png using Guid(37e59ca694d8a074cb80aa0ba8c2b20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc2b386dccc9099a2bc22be43226717') in 0.001770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_CrouchTransition.png
+  artifactKey: Guid(d6cd9629caf57d04584225fcb9459369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_CrouchTransition.png using Guid(d6cd9629caf57d04584225fcb9459369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1419ad76f5c107bd0076428a7c3f67') in 0.001525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_Death.png
+  artifactKey: Guid(926990d7857a4f54385f46e4f65e6d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_Death.png using Guid(926990d7857a4f54385f46e4f65e6d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0a28062759917328ecc4bace55381c') in 0.001613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_Roll.png
+  artifactKey: Guid(994bf792e040767408e94ada13af3ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_Roll.png using Guid(994bf792e040767408e94ada13af3ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4096b7e9242e6329ee4422a9ca8be7a') in 0.003892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_Run.png
+  artifactKey: Guid(df7313338f366fa4d9a34975d894f1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_Run.png using Guid(df7313338f366fa4d9a34975d894f1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9791c53d8f85dc433b3387b58f911ea5') in 0.002374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_WallClimbNoMovement.png
+  artifactKey: Guid(7d6e83e1807ecee41b08757ae08d91ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_WallClimbNoMovement.png using Guid(7d6e83e1807ecee41b08757ae08d91ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053f4e0a04872168e2fe3a59629dc966') in 0.001603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_AttackNoMovement.png
+  artifactKey: Guid(9296bf492bd925a40be1306aaa21843b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_AttackNoMovement.png using Guid(9296bf492bd925a40be1306aaa21843b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb8687402cdab2e3232aa648c78a788') in 0.006114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_Jump.png
+  artifactKey: Guid(ee8fd90cb9d8d774d8ebefa908faf1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_Jump.png using Guid(ee8fd90cb9d8d774d8ebefa908faf1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6511ad2705c657f7f129d24d218a400') in 0.001443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: I/O-åtgärden har avbrutits därför att en tråd har avslutats eller för att ett program har begärt det.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

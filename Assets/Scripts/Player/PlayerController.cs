@@ -4,20 +4,32 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Rendering;
 
+[RequireComponent(typeof(Rigidbody2D), typeof(TouchingDirections))]
 public class PlayerController : MonoBehaviour
 {
 
-    private DefaultPlayerInputs input = null;
+    Animator animator;
 
-    private Vector2 inputVector = Vector2.zero;
     public float walkSpeed = 5f;
     public float jumpHeight = 6f;
+    public int maxJumps = 2;
+    public int jumpCount = 0;
+
+    private DefaultPlayerInputs input = null;
+    private TouchingDirections touchingDirections;
+
+    private SpriteRenderer spriteRenderer;
+
+    private Vector2 inputVector = Vector2.zero;
 
     Rigidbody2D rb;
 
     private void Awake() {
         input = new DefaultPlayerInputs();
         rb = GetComponent<Rigidbody2D>();
+        touchingDirections = GetComponent<TouchingDirections>();
+        animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     private void OnEnable() {
@@ -50,21 +62,39 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate() {
         rb.velocity = new Vector2(inputVector.x * walkSpeed, rb.velocity.y);
+
+        if (touchingDirections.IsGrounded) { jumpCount = 0; }
+
+
     }
 
     private void OnMovementPerformed(InputAction.CallbackContext context) {
         Debug.Log("Moved");
         inputVector = context.ReadValue<Vector2>();
+        animator.SetBool("IsRunning", true);
+        animator.SetBool("FacingRight", true);
+
+        if (inputVector.x < 0) {
+            spriteRenderer.flipX = true;
+        }
+        else {
+            spriteRenderer.flipX = false;
+        }
+
     }
 
     private void OnMovementCancelled(InputAction.CallbackContext context) {
         Debug.Log("Stopped Moving");
         inputVector = Vector2.zero;
+        animator.SetBool("IsRunning", false);
     }
 
     private void OnJumpPerformed(InputAction.CallbackContext context) {
         Debug.Log("Jumped");
-        rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
+        if (jumpCount < maxJumps - 1) {
+             rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
+             jumpCount++;
+        }
     }
 
 }
