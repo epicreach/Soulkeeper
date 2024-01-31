@@ -6,10 +6,15 @@ public class TouchingDirections : MonoBehaviour
 {
 
     public ContactFilter2D castFilter;
-    public float raycastDistance = 0.05f;
-    public bool isGrounded { get { return isGrounded; } private set {
-        isGrounded = value;
-    }}
+    public float raycastDistance = 0.2f;
+
+    private bool isGround;
+
+    public bool IsGrounded { get { 
+        return isGround; } 
+        private set {
+        isGround = value;
+    } }
 
 
     Rigidbody2D rb;
@@ -32,6 +37,7 @@ public class TouchingDirections : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        isGrounded = collider.Cast(Vector2.down, castFilter, raycastHits, raycastDistance) < 0;
+        Debug.Log(IsGrounded);
+        isGround = collider.Cast(Vector2.down, castFilter, raycastHits, raycastDistance) > 0;
     }
 }

@@ -14,6 +14,8 @@ public class PlayerController : MonoBehaviour
     private Vector2 inputVector = Vector2.zero;
     public float walkSpeed = 5f;
     public float jumpHeight = 6f;
+    public int maxJumps = 2;
+    public int jumpCount = 0;
 
     Rigidbody2D rb;
 
@@ -53,6 +55,11 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate() {
         rb.velocity = new Vector2(inputVector.x * walkSpeed, rb.velocity.y);
+
+        if (touchingDirections.IsGrounded) { jumpCount = 0; }
+        Debug.Log(jumpCount);
+
+
     }
 
     private void OnMovementPerformed(InputAction.CallbackContext context) {
@@ -67,8 +74,9 @@ public class PlayerController : MonoBehaviour
 
     private void OnJumpPerformed(InputAction.CallbackContext context) {
         Debug.Log("Jumped");
-        if (touchingDirections.isGrounded) {
+        if (jumpCount < maxJumps - 1) {
              rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
+             jumpCount++;
         }
     }
 
