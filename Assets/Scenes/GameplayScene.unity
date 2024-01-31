@@ -3018,17 +3018,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4951817941814064238, guid: 189a8adc65a61024aa1877de14a53603, type: 3}
   m_PrefabInstance: {fileID: 7782256990074362366}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &999887415 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7165962927014577275, guid: 189a8adc65a61024aa1877de14a53603, type: 3}
-  m_PrefabInstance: {fileID: 7782256990074362366}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2119826643}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95bfa7412a1d1a24d813b3e3592ffbe5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1000049178
 GameObject:
   m_ObjectHideFlags: 0
@@ -4168,7 +4157,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 19
-      m_TileSpriteIndex: 19
+      m_TileSpriteIndex: 29
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -4258,7 +4247,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 7
-      m_TileSpriteIndex: 7
+      m_TileSpriteIndex: 19
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -4613,8 +4602,8 @@ Tilemap:
     m_Data: {fileID: 6741005871599099518, guid: 1061b915ffc9af143a59aa0d12c234dd, type: 3}
   - m_RefCount: 33
     m_Data: {fileID: 1626309641, guid: 9b639766cca19b8448c0b6024f5e3552, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -1502291412, guid: 9b639766cca19b8448c0b6024f5e3552, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 2
     m_Data: {fileID: -2125224908, guid: 9b639766cca19b8448c0b6024f5e3552, type: 3}
   - m_RefCount: 1
@@ -4638,7 +4627,7 @@ Tilemap:
   - m_RefCount: 2
     m_Data: {fileID: 8165537292740110983, guid: 1061b915ffc9af143a59aa0d12c234dd, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: -1755506887, guid: 9b639766cca19b8448c0b6024f5e3552, type: 3}
+    m_Data: {fileID: -1502291412, guid: 9b639766cca19b8448c0b6024f5e3552, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: -1216279722, guid: 9b639766cca19b8448c0b6024f5e3552, type: 3}
   - m_RefCount: 2
@@ -4657,8 +4646,8 @@ Tilemap:
     m_Data: {fileID: -2082347729, guid: 5da750f36e60e0949ba7085b5e1788ce, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 1770663931, guid: 5da750f36e60e0949ba7085b5e1788ce, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: -1755506887, guid: 9b639766cca19b8448c0b6024f5e3552, type: 3}
   - m_RefCount: 3
     m_Data: {fileID: -169171119, guid: 9b639766cca19b8448c0b6024f5e3552, type: 3}
   m_TileMatrixArray:
@@ -4902,6 +4891,20 @@ CapsuleCollider2D:
   m_Offset: {x: -0.04229796, y: 0.004226923}
   m_Size: {x: 0.42394948, y: 1.171624}
   m_Direction: 0
+--- !u!114 &2119826653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2119826643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95bfa7412a1d1a24d813b3e3592ffbe5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkSpeed: 5
+  jumpHeight: 6
 --- !u!1001 &7782256990074362366
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4965,7 +4968,7 @@ PrefabInstance:
     - target: {fileID: 6474832443652525209, guid: 189a8adc65a61024aa1877de14a53603, type: 3}
       propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 999887415}
+      objectReference: {fileID: 0}
     - target: {fileID: 8551288292280716452, guid: 189a8adc65a61024aa1877de14a53603, type: 3}
       propertyPath: m_Name
       value: Player
@@ -4981,6 +4984,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8551288292280716452, guid: 189a8adc65a61024aa1877de14a53603, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2119826652}
+    - targetCorrespondingSourceObject: {fileID: 8551288292280716452, guid: 189a8adc65a61024aa1877de14a53603, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2119826653}
   m_SourcePrefab: {fileID: 100100000, guid: 189a8adc65a61024aa1877de14a53603, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
