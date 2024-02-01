@@ -15,7 +15,7 @@ C:/Users/luqas/Documents/GitHub/Soulkeeper
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52394
+52669
 Successfully changed project path to: C:/Users/luqas/Documents/GitHub/Soulkeeper
 C:/Users/luqas/Documents/GitHub/Soulkeeper
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/luqas/Documents/GitHub/Soulkeeper
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22208] Host "[IP] 10.0.35.102 [Port] 0 [Flags] 2 [Guid] 142920439 [EditorId] 142920439 [Version] 1048832 [Id] WindowsEditor(7,FastTwo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23328] Host "[IP] 10.0.35.102 [Port] 0 [Flags] 2 [Guid] 3894191694 [EditorId] 3894191694 [Version] 1048832 [Id] WindowsEditor(7,FastTwo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [22208] Host "[IP] 10.0.35.102 [Port] 0 [Flags] 2 [Guid] 142920439 [EditorId] 142920439 [Version] 1048832 [Id] WindowsEditor(7,FastTwo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23328] Host "[IP] 10.0.35.102 [Port] 0 [Flags] 2 [Guid] 3894191694 [EditorId] 3894191694 [Version] 1048832 [Id] WindowsEditor(7,FastTwo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 16.02 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 18.70 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -69,44 +69,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008991 seconds.
-- Loaded All Assemblies, in  0.539 seconds
+Registered in 0.008798 seconds.
+- Loaded All Assemblies, in  0.616 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.405 seconds
-Domain Reload Profiling: 943ms
-	BeginReloadAssembly (159ms)
+- Finished resetting the current domain, in  0.475 seconds
+Domain Reload Profiling: 1089ms
+	BeginReloadAssembly (184ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (62ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (80ms)
-	LoadAllAssembliesAndSetupDomain (218ms)
-		LoadAssemblies (158ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (256ms)
+		LoadAssemblies (182ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (215ms)
-			TypeCache.Refresh (213ms)
-				TypeCache.ScanAssembly (195ms)
+		AnalyzeDomain (253ms)
+			TypeCache.Refresh (251ms)
+				TypeCache.ScanAssembly (227ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (405ms)
+	FinalizeReload (476ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (306ms)
+		SetupLoadedEditorAssemblies (365ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (12ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (14ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (197ms)
-			ProcessInitializeOnLoadMethodAttributes (81ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (237ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,55 +116,55 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\luqas\Documents\GitHub\Soulkeeper\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\luqas\Documents\GitHub\Soulkeeper\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.114 seconds
-Refreshing native plugins compatible for Editor in 8.31 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.350 seconds
+Refreshing native plugins compatible for Editor in 7.87 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.301 seconds
-Domain Reload Profiling: 2412ms
-	BeginReloadAssembly (224ms)
+- Finished resetting the current domain, in  1.496 seconds
+Domain Reload Profiling: 2841ms
+	BeginReloadAssembly (272ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (65ms)
-	LoadAllAssembliesAndSetupDomain (751ms)
-		LoadAssemblies (482ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (906ms)
+		LoadAssemblies (568ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (392ms)
-			TypeCache.Refresh (320ms)
-				TypeCache.ScanAssembly (293ms)
-			ScanForSourceGeneratedMonoScriptInfo (54ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1302ms)
+		AnalyzeDomain (483ms)
+			TypeCache.Refresh (400ms)
+				TypeCache.ScanAssembly (367ms)
+			ScanForSourceGeneratedMonoScriptInfo (59ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1497ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (988ms)
+		SetupLoadedEditorAssemblies (1127ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
+			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (153ms)
-			ProcessInitializeOnLoadAttributes (671ms)
-			ProcessInitializeOnLoadMethodAttributes (137ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (157ms)
+			ProcessInitializeOnLoadAttributes (790ms)
+			ProcessInitializeOnLoadMethodAttributes (151ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (13ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 6.95 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 6.87 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6292 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 104 unused Assets / (422.5 KB). Loaded Objects now: 6753.
 Memory consumption went from 233.5 MB to 233.1 MB.
-Total: 5.970300 ms (FindLiveObjects: 0.575000 ms CreateObjectMapping: 0.422000 ms MarkObjects: 4.683000 ms  DeleteObjects: 0.288700 ms)
+Total: 6.773400 ms (FindLiveObjects: 0.628700 ms CreateObjectMapping: 0.373700 ms MarkObjects: 5.349200 ms  DeleteObjects: 0.420200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -181,97 +181,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1458966.534623 seconds.
-  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform Stair Part 01 A.prefab
-  artifactKey: Guid(424dfe1fc41814940b9a78c2468bb466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform Stair Part 01 A.prefab using Guid(424dfe1fc41814940b9a78c2468bb466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0187460eee8a758b1bfcafa35225ab1a') in 0.028969 seconds
+  Time since last request: 1460964.988422 seconds.
+  path: Assets/Characters
+  artifactKey: Guid(72543acd75b4231428276af82386d080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters using Guid(72543acd75b4231428276af82386d080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e390e587e6669ae7cbbb7fa9719d3b6b') in 0.002786 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform Stair Group 01 B.prefab
-  artifactKey: Guid(6d073d624da034245ac7c0f4b277222d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform Stair Group 01 B.prefab using Guid(6d073d624da034245ac7c0f4b277222d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f1853075189a9d8663426df87c0bcdf') in 0.007158 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 0.332282 seconds.
-  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform Broken 02.prefab
-  artifactKey: Guid(334c6d5824c34244dae17707732a1e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform Broken 02.prefab using Guid(334c6d5824c34244dae17707732a1e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0422f4820062224a8b571b67153677') in 0.006174 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.469017 seconds.
-  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform Broken 01.prefab
-  artifactKey: Guid(3a14fbfcf6fdcc347959340ae6bb24ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform Broken 01.prefab using Guid(3a14fbfcf6fdcc347959340ae6bb24ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d89dc1c930590e3be80f8e0ee921486') in 0.006269 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.847957 seconds.
-  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform Broken 03.prefab
-  artifactKey: Guid(8f4c4bc1677dc334abee6b4b567467ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform Broken 03.prefab using Guid(8f4c4bc1677dc334abee6b4b567467ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a39eda337baecf44db4ae4f2037968c') in 0.005831 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 1.475456 seconds.
-  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform 03.prefab
-  artifactKey: Guid(e61294f2cf6f1574eb49d2614c029001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform 03.prefab using Guid(e61294f2cf6f1574eb49d2614c029001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eaa733d205fd2a807bb3dfb006c6a82') in 0.006838 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.467719 seconds.
-  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform 02.prefab
-  artifactKey: Guid(59325cec8dcea1c4ebf38b944c7261c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform 02.prefab using Guid(59325cec8dcea1c4ebf38b944c7261c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70e9d1c9fb809db650a94805f27d913') in 0.007486 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.417732 seconds.
-  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform 01.prefab
-  artifactKey: Guid(45f562af968c6304a970b66bcaf19902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform 01.prefab using Guid(45f562af968c6304a970b66bcaf19902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f244bd65e0c76b17708da68c91578b') in 0.007717 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 25.562557 seconds.
-  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform 04.prefab
-  artifactKey: Guid(696f92b7da1e17d47aac05ff19d95f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform 04.prefab using Guid(696f92b7da1e17d47aac05ff19d95f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c84b802a2c81639363bed90e540ac278') in 0.011537 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 69.164961 seconds.
-  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform Stair Group 01 C.prefab
-  artifactKey: Guid(5825bee4ecf08ef49b0f0520665b81ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform Stair Group 01 C.prefab using Guid(5825bee4ecf08ef49b0f0520665b81ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38bc886cc566f08781667f506f57a485') in 0.008626 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 54.613702 seconds.
-  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform Stair Group 01 D.prefab
-  artifactKey: Guid(754e3006122f97142a5607d86014bf93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform Stair Group 01 D.prefab using Guid(754e3006122f97142a5607d86014bf93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b352161b01cf624ffc45bdb3ea1f5753') in 0.013895 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 0.396915 seconds.
-  path: Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform Stair Group 01 E.prefab
-  artifactKey: Guid(cef7a77817d865b4bae1d684e2738919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Cainos/Pixel Art Platformer - Dungeon/Prefab/Props/PF Dungeon Props - Platform Stair Group 01 E.prefab using Guid(cef7a77817d865b4bae1d684e2738919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c136a74007a153dc1222c1b5fe865c55') in 0.008167 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
+Number of asset objects unloaded after import = 0
