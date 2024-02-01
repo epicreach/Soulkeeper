@@ -6,6 +6,7 @@ public class TouchingDirections : MonoBehaviour
 {
 
     public ContactFilter2D castFilter;
+    public Animator animator;
     public float raycastDistance = 0.2f;
 
     private bool isGround;
@@ -25,18 +26,22 @@ public class TouchingDirections : MonoBehaviour
 
     private void Awake() {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
         collider = GetComponent<CapsuleCollider2D>();
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void FixedUpdate()
     {
         isGround = collider.Cast(Vector2.down, castFilter, raycastHits, raycastDistance) > 0;
+
+        if (!IsGrounded) {
+            animator.SetBool("IsGrounded", false);
+        }
+        else {
+            animator.SetBool("IsGrounded", true);
+        }
+
     }
 }

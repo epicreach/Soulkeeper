@@ -12,7 +12,9 @@ public class PlayerController : MonoBehaviour
     private Animator animator;
 
     public float walkSpeed = 5f;
-
+    public float dashForce = 2f;
+    public float dashDuration = 0.4f;
+    private bool isDashing = false;
     public DefaultPlayerInputs input = null;
 
     public SpriteRenderer spriteRenderer;
@@ -32,25 +34,28 @@ public class PlayerController : MonoBehaviour
         input.Enable();
         input.Player.Move.performed += OnMovementPerformed;
         input.Player.Move.canceled += OnMovementCancelled;
+        input.Player.Slide.performed += OnDashPerformed;
     }
 
     private void OnDisable() {
         input.Disable();
-        input.Player.Move.performed -= OnMovementPerformed;
+        input.Player.Move.performed -= OnDashPerformed;
+        input.Player.Slide.canceled -= OnDashPerformed;
     }
 
 
     void FixedUpdate() {
-        rb.velocity = new Vector2(inputVector.x * walkSpeed, rb.velocity.y);
 
+        if (isDashing) {
+            rb.velocity = new Vector2(rb.velocity.x, 0);
+            return;
+        }
 
-
-
-        //rb.AddForce(new Vector2(inputVector.x * walkSpeed, 0), ForceMode2D.Impulse);
+         rb.velocity = new Vector2(inputVector.x * walkSpeed, rb.velocity.y);
+        
     }
 
     private void OnMovementPerformed(InputAction.CallbackContext context) {
-        Debug.Log("Moved");
         inputVector = context.ReadValue<Vector2>();
         animator.SetBool("IsRunning", true);
         animator.SetBool("FacingRight", true);
@@ -65,13 +70,24 @@ public class PlayerController : MonoBehaviour
     }
 
     private void OnMovementCancelled(InputAction.CallbackContext context) {
-        Debug.Log("Stopped Moving");
         inputVector = Vector2.zero;
         animator.SetBool("IsRunning", false);
     }
 
-    private void OnSlidePerformed(InputAction.CallbackContext context) {
-        
+    private void OnDashPerformed(InputAction.CallbackContext context) {
+        StartCoroutine(Dash());
     }
 
+    IEnumerator Dash()
+    {
+        isDashing = true;
+        animator.SetBool("IsDashing", true);
+        float playerDirection = spriteRenderer.flipX ? -1f : 1f;
+        rb.velocity = new Vector2(playerDirection * (walkSpeed * dashForce), 0);
+        Debug.Log(rb.velocity);
+        yield return new WaitForSeconds(dashDuration);
+        animator.SetBool("IsDashing", false);
+        isDashing = false;
+
+    }
 }
