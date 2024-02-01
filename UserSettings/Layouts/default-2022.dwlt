@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 134
+  controlID: 135
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 65
+  controlID: 41
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 41
+  controlID: 42
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -321,7 +321,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets
+    - Assets/Characters/Player
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -329,16 +329,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets
+  - Assets/Characters/Player
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\isacs\Documents\GitHub\Soulkeeper
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 127e0000
-    m_LastClickedID: 32274
-    m_ExpandedIDs: 00000000167c0000ca7d0000147e0000167e0000187e000000ca9a3bffffff7f
+    m_SelectedIDs: e4af0000
+    m_LastClickedID: 45028
+    m_ExpandedIDs: 00000000348a0000f28b0000f48b0000fa8b00003c8c00003e8c0000408c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -366,7 +366,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000167c0000
+    m_ExpandedIDs: 00000000348a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -393,7 +393,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -506,9 +506,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 02770000
       m_LastClickedID: 0
-      m_ExpandedIDs: a2faffff
+      m_ExpandedIDs: e4faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -927,9 +927,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 162.69043, y: 56.7642, z: -1.8339794}
+    m_Target: {x: 63.820534, y: 11.334239, z: -0.41892344}
     speed: 2
-    m_Value: {x: -3.5157223, y: 2.4369888, z: -1.0595247}
+    m_Value: {x: 162.69043, y: 56.7642, z: -1.8339794}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -979,9 +979,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 193.3978
+    m_Target: 51.89215
     speed: 2
-    m_Value: 5.9599366
+    m_Value: 193.3978
   m_Ortho:
     m_Target: 1
     speed: 2
