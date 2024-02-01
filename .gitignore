@@ -40,7 +40,8 @@ Icon?
 ehthumbs.db
 Thumbs.db
 
-#Logs
-
-./Logs
-UserSettings/Layouts/default-2022.dwlt
+# Ignore Unity log files
+*.log
+*.log-*
+*.log
+*.log
