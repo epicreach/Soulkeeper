@@ -1266,6 +1266,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9072807208709021889, guid: 431e51c0b410e5548b0c958cf3d15a71, type: 3}
   m_PrefabInstance: {fileID: 144379786}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &149188386 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6930122694965717508, guid: 88b36fbeb18b02f4eb65eba52b1d0c52, type: 3}
+  m_PrefabInstance: {fileID: 596199244}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &149929512
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1884,6 +1889,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 131870632}
     m_Modifications:
+    - target: {fileID: 527262527760620934, guid: 88b36fbeb18b02f4eb65eba52b1d0c52, type: 3}
+      propertyPath: isOpened
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 527262527760620934, guid: 88b36fbeb18b02f4eb65eba52b1d0c52, type: 3}
+      propertyPath: doorCollider
+      value: 
+      objectReference: {fileID: 2112527941}
+    - target: {fileID: 527262527760620934, guid: 88b36fbeb18b02f4eb65eba52b1d0c52, type: 3}
+      propertyPath: spriteOpened
+      value: 
+      objectReference: {fileID: 140802263, guid: 0afeb8577b003fb4589464f46d5b4b88, type: 3}
+    - target: {fileID: 4142715627474073102, guid: 88b36fbeb18b02f4eb65eba52b1d0c52, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1605236218, guid: 0afeb8577b003fb4589464f46d5b4b88, type: 3}
     - target: {fileID: 6930122694965717508, guid: 88b36fbeb18b02f4eb65eba52b1d0c52, type: 3}
       propertyPath: m_Name
       value: PF Dungeon Props - Door Wood Side 01
@@ -1931,7 +1952,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6930122694965717508, guid: 88b36fbeb18b02f4eb65eba52b1d0c52, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2112527941}
   m_SourcePrefab: {fileID: 100100000, guid: 88b36fbeb18b02f4eb65eba52b1d0c52, type: 3}
 --- !u!4 &210552608 stripped
 Transform:
@@ -2070,6 +2094,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 131870632}
     m_Modifications:
+    - target: {fileID: 527262527760620934, guid: 88b36fbeb18b02f4eb65eba52b1d0c52, type: 3}
+      propertyPath: doorCollider
+      value: 
+      objectReference: {fileID: 1003275998}
     - target: {fileID: 6930122694965717508, guid: 88b36fbeb18b02f4eb65eba52b1d0c52, type: 3}
       propertyPath: m_Name
       value: PF Dungeon Props - Door Wood Side 01 (1)
@@ -2117,7 +2145,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6930122694965717508, guid: 88b36fbeb18b02f4eb65eba52b1d0c52, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1003275998}
   m_SourcePrefab: {fileID: 100100000, guid: 88b36fbeb18b02f4eb65eba52b1d0c52, type: 3}
 --- !u!4 &249004817 stripped
 Transform:
@@ -2570,6 +2601,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 131870632}
     m_Modifications:
+    - target: {fileID: 527262527760620934, guid: 8ce820bbc95aeb142ab6a6990e617c41, type: 3}
+      propertyPath: doorCollider
+      value: 
+      objectReference: {fileID: 1780211541}
     - target: {fileID: 6930122694965717508, guid: 8ce820bbc95aeb142ab6a6990e617c41, type: 3}
       propertyPath: m_Name
       value: PF Dungeon Props - Door Iron Side 01
@@ -2617,7 +2652,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6930122694965717508, guid: 8ce820bbc95aeb142ab6a6990e617c41, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1780211541}
   m_SourcePrefab: {fileID: 100100000, guid: 8ce820bbc95aeb142ab6a6990e617c41, type: 3}
 --- !u!4 &302322029 stripped
 Transform:
@@ -30900,6 +30938,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 131870632}
     m_Modifications:
+    - target: {fileID: 527262527760620934, guid: 88b36fbeb18b02f4eb65eba52b1d0c52, type: 3}
+      propertyPath: doorCollider
+      value: 
+      objectReference: {fileID: 596199248}
     - target: {fileID: 6930122694965717508, guid: 88b36fbeb18b02f4eb65eba52b1d0c52, type: 3}
       propertyPath: m_Name
       value: PF Dungeon Props - Door Wood Side 01
@@ -30947,13 +30989,61 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6930122694965717508, guid: 88b36fbeb18b02f4eb65eba52b1d0c52, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 596199248}
   m_SourcePrefab: {fileID: 100100000, guid: 88b36fbeb18b02f4eb65eba52b1d0c52, type: 3}
 --- !u!4 &596199245 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6930122694965717509, guid: 88b36fbeb18b02f4eb65eba52b1d0c52, type: 3}
   m_PrefabInstance: {fileID: 596199244}
   m_PrefabAsset: {fileID: 0}
+--- !u!61 &596199248
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 149188386}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0000076293945, y: 0.99815655}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.3648224, y: 2.0888977}
+  m_EdgeRadius: 0
 --- !u!1001 &599275009
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33506,6 +33596,56 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9072807208709021889, guid: c6330dab5b62b44449122c70401c4ac8, type: 3}
   m_PrefabInstance: {fileID: 1000506930}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1003275995 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6930122694965717508, guid: 88b36fbeb18b02f4eb65eba52b1d0c52, type: 3}
+  m_PrefabInstance: {fileID: 249004816}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1003275998
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003275995}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 1.0532908}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.3894043, y: 2.1296158}
+  m_EdgeRadius: 0
 --- !u!1001 &1006657603
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33709,6 +33849,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Dungeon Props - Switch 01
       objectReference: {fileID: 0}
+    - target: {fileID: 4157728320252114848, guid: 111b144d92d43c148ac7c704513e7d13, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2112527942}
     - target: {fileID: 6265670936862214329, guid: 111b144d92d43c148ac7c704513e7d13, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.900896
@@ -88265,6 +88409,56 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6265670936862214329, guid: 8341fc961bf8c83428539c3811570a87, type: 3}
   m_PrefabInstance: {fileID: 1254508739}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1265531625 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6930122694965717508, guid: 88b36fbeb18b02f4eb65eba52b1d0c52, type: 3}
+  m_PrefabInstance: {fileID: 1625355410}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1265531628
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265531625}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.024834633, y: 1.0182233}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5529766, y: 2.043058}
+  m_EdgeRadius: 0
 --- !u!1001 &1267064486
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -90361,6 +90555,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 131870632}
     m_Modifications:
+    - target: {fileID: 527262527760620934, guid: 88b36fbeb18b02f4eb65eba52b1d0c52, type: 3}
+      propertyPath: doorCollider
+      value: 
+      objectReference: {fileID: 1265531628}
     - target: {fileID: 6930122694965717508, guid: 88b36fbeb18b02f4eb65eba52b1d0c52, type: 3}
       propertyPath: m_Name
       value: PF Dungeon Props - Door Wood Side 01
@@ -90408,7 +90606,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6930122694965717508, guid: 88b36fbeb18b02f4eb65eba52b1d0c52, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1265531628}
   m_SourcePrefab: {fileID: 100100000, guid: 88b36fbeb18b02f4eb65eba52b1d0c52, type: 3}
 --- !u!1001 &1636302498
 PrefabInstance:
@@ -91423,6 +91624,56 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9072807208709021889, guid: d791282291ab9fe4e97325a320a316aa, type: 3}
   m_PrefabInstance: {fileID: 1764200614}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1780211538 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6930122694965717508, guid: 8ce820bbc95aeb142ab6a6990e617c41, type: 3}
+  m_PrefabInstance: {fileID: 302322028}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1780211541
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780211538}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.016727448, y: 0.9702182}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.43125153, y: 2.1374974}
+  m_EdgeRadius: 0
 --- !u!4 &1785247420 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9072807208709021889, guid: 99d8c716fc6c486498fab9b30686f47b, type: 3}
@@ -92823,6 +93074,67 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6265670936862214329, guid: c151e798e115fe94b9c3b5bcad2db15e, type: 3}
   m_PrefabInstance: {fileID: 2107227966}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2112527940 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6930122694965717508, guid: 88b36fbeb18b02f4eb65eba52b1d0c52, type: 3}
+  m_PrefabInstance: {fileID: 210552607}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &2112527941
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112527940}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.022435188, y: 1.0207671}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.3718357, y: 2.1441572}
+  m_EdgeRadius: 0
+--- !u!114 &2112527942 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 527262527760620934, guid: 88b36fbeb18b02f4eb65eba52b1d0c52, type: 3}
+  m_PrefabInstance: {fileID: 210552607}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112527940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0953681beb9c028459afe45ac6c82102, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2117735728
 PrefabInstance:
   m_ObjectHideFlags: 0
