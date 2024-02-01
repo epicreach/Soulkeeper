@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Rendering;
 
+[DefaultExecutionOrder(-1)] // Set the execution order to -1 for MovementController
 [RequireComponent(typeof(Rigidbody2D), typeof(TouchingDirections))]
 public class PlayerController : MonoBehaviour
 {
@@ -12,11 +13,11 @@ public class PlayerController : MonoBehaviour
 
     public float walkSpeed = 5f;
 
-    private DefaultPlayerInputs input = null;
+    public DefaultPlayerInputs input = null;
 
-    private SpriteRenderer spriteRenderer;
+    public SpriteRenderer spriteRenderer;
 
-    private Vector2 inputVector = Vector2.zero;
+    public Vector2 inputVector = Vector2.zero;
 
     Rigidbody2D rb;
 
@@ -41,6 +42,11 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate() {
         rb.velocity = new Vector2(inputVector.x * walkSpeed, rb.velocity.y);
+
+
+
+
+        //rb.AddForce(new Vector2(inputVector.x * walkSpeed, 0), ForceMode2D.Impulse);
     }
 
     private void OnMovementPerformed(InputAction.CallbackContext context) {
@@ -62,6 +68,10 @@ public class PlayerController : MonoBehaviour
         Debug.Log("Stopped Moving");
         inputVector = Vector2.zero;
         animator.SetBool("IsRunning", false);
+    }
+
+    private void OnSlidePerformed(InputAction.CallbackContext context) {
+        
     }
 
 }

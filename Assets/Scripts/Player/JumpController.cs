@@ -11,6 +11,8 @@ public class JumpController : MonoBehaviour
     public int maxJumps = 2;
     public int jumpCount = 0;
 
+    private PlayerController playerController;
+
     private DefaultPlayerInputs input = null;
     private Animator animator;
     private TouchingDirections touchingDirections;
@@ -21,7 +23,8 @@ public class JumpController : MonoBehaviour
 
 
     private void Awake() {
-        input = new DefaultPlayerInputs();
+        playerController = GetComponent<PlayerController>();
+        input = playerController.input;
         rb = GetComponent<Rigidbody2D>();
         touchingDirections = GetComponent<TouchingDirections>();
         animator = GetComponent<Animator>();
