@@ -9,7 +9,7 @@ namespace Cainos.PixelArtPlatformer_Dungeon
 {
     public class Switch : MonoBehaviour
     {
-        [FoldoutGroup("Reference")] public Door target;
+        [FoldoutGroup("Reference")] public MonoBehaviour target; // Change the type to MonoBehaviour
         [Space]
         [FoldoutGroup("Reference")] public SpriteRenderer spriteRenderer;
         [FoldoutGroup("Reference")] public Sprite spriteOn;
@@ -49,12 +49,32 @@ namespace Cainos.PixelArtPlatformer_Dungeon
 
                 if (target)
                 {
-                    target.IsOpened = isOn;
-                    if (isOn)
-                    { target.Open(); }
-
-
+                    // Check if the target implements the Door interface
+                    Door door = target as Door;
+                    if (door != null)
+                    {
+                        door.IsOpened = isOn;
+                        if (isOn)
+                        {
+                            door.Open();
+                        }
+                    }
+                    else
+                    {
+                        // Check if the target implements the Elevator interface
+                        Elevator elevator = target as Elevator;
+                        if (elevator != null)
+                        {
+                            elevator.IsWaiting = isOn;
+                            // Additional logic for Elevator, e.g., triggering movement
+                            if (isOn)
+                            {
+                                elevator.Activate();
+                            }
+                        }
+                    }
                 }
+
 
                 if (Application.isPlaying)
                 {

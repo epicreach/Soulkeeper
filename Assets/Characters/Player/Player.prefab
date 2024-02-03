@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8229485023454451733}
   - component: {fileID: 8489956657895354227}
   - component: {fileID: 1889166923880529645}
+  - component: {fileID: 1338774368807629063}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -186,6 +187,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSpeed: 5
   jumpHeight: 6
+  maxJumps: 2
+  jumpCount: 0
 --- !u!114 &1889166923880529645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -196,5 +199,32 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 533a105fc10306f418e9526105e30a78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  castFilter:
+    useTriggers: 0
+    useLayerMask: 0
+    useDepth: 0
+    useOutsideDepth: 0
+    useNormalAngle: 0
+    useOutsideNormalAngle: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 0
+    minDepth: 0
+    maxDepth: 0
+    minNormalAngle: 0
+    maxNormalAngle: 0
+  raycastDistance: 0.2
+--- !u!114 &1338774368807629063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8551288292280716452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7086f6346a95e154c8397b5e7da1cd1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

@@ -77,5 +77,6 @@ namespace Cainos.PixelArtPlatformer_Dungeon
         {
             IsOpened = false;
         }
+
     }
 }
