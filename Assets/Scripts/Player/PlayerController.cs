@@ -60,10 +60,10 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("IsRunning", true);
 
         if (inputVector.x < 0) {
-            spriteRenderer.flipX = true;
+            FlipPlayer(-1f);
         }
         else {
-            spriteRenderer.flipX = false;
+            FlipPlayer(1f);
         }
 
     }
@@ -81,7 +81,7 @@ public class PlayerController : MonoBehaviour
     {
         isDashing = true;
         animator.SetBool("IsDashing", true);
-        float playerDirection = spriteRenderer.flipX ? -1f : 1f;
+        float playerDirection = transform.localScale.x;
         rb.velocity = new Vector2(playerDirection * (walkSpeed * dashForce), 0);
         Debug.Log(rb.velocity);
         yield return new WaitForSeconds(dashDuration);
@@ -89,4 +89,11 @@ public class PlayerController : MonoBehaviour
         isDashing = false;
 
     }
+
+    public void FlipPlayer(float direction) {
+            Vector3 localScale = transform.localScale;
+            localScale.x = direction;
+            transform.localScale = localScale;
+    }
+
 }

@@ -7,7 +7,7 @@ public class JumpController : MonoBehaviour
 {
 
 
-    public float jumpHeight = 6f;
+    public float jumpHeight = 8f;
     public int maxJumps = 2;
     public int jumpCount = 0;
 
@@ -41,6 +41,7 @@ public class JumpController : MonoBehaviour
     }
 
     private void OnJumpPerformed(InputAction.CallbackContext context) {
+        Debug.Log("Jumped");
         if (jumpCount < maxJumps - 1) {
              rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
              jumpCount++;
@@ -52,14 +53,4 @@ public class JumpController : MonoBehaviour
     {
         if (touchingDirections.IsGrounded) { jumpCount = 0; }
     }
-
-
-    public void setJumpCount(int count) {
-        this.jumpCount = count;
-    }
-
-    public int getJumpCount() {
-        return jumpCount;
-    }
-
 }
