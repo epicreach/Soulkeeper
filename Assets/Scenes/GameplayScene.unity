@@ -30380,7 +30380,7 @@ MonoBehaviour:
   m_ShowCameraFrustum: 1
   m_IgnoreTimeScale: 0
   m_WorldUpOverride: {fileID: 0}
-  m_UpdateMethod: 2
+  m_UpdateMethod: 0
   m_BlendUpdateMethod: 1
   m_DefaultBlend:
     m_Style: 1
@@ -92957,6 +92957,19 @@ MonoBehaviour:
   jumpHeight: 6
   maxJumps: 2
   jumpCount: 0
+--- !u!114 &2119826664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2119826643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88f39b431e210394baec9c5218923d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wallSlideSpeed: 1
 --- !u!1001 &2123618193
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -93266,6 +93279,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6231179968024076111, guid: 189a8adc65a61024aa1877de14a53603, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 2a64ae5c3aed13b4196a902386dfc613, type: 2}
+    - target: {fileID: 6231179968024076111, guid: 189a8adc65a61024aa1877de14a53603, type: 3}
       propertyPath: m_GravityScale
       value: 1
       objectReference: {fileID: 0}
@@ -93291,6 +93308,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8551288292280716452, guid: 189a8adc65a61024aa1877de14a53603, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2119826658}
+    - targetCorrespondingSourceObject: {fileID: 8551288292280716452, guid: 189a8adc65a61024aa1877de14a53603, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2119826664}
   m_SourcePrefab: {fileID: 100100000, guid: 189a8adc65a61024aa1877de14a53603, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

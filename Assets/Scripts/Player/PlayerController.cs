@@ -58,7 +58,6 @@ public class PlayerController : MonoBehaviour
     private void OnMovementPerformed(InputAction.CallbackContext context) {
         inputVector = context.ReadValue<Vector2>();
         animator.SetBool("IsRunning", true);
-        animator.SetBool("FacingRight", true);
 
         if (inputVector.x < 0) {
             spriteRenderer.flipX = true;
