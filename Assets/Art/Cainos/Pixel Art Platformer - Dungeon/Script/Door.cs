@@ -14,13 +14,14 @@ namespace Cainos.PixelArtPlatformer_Dungeon
         [FoldoutGroup("Reference")] public SpriteRenderer spriteRenderer;
         [FoldoutGroup("Reference")] public Sprite spriteOpened;
         [FoldoutGroup("Reference")] public Sprite spriteClosed;
+        [FoldoutGroup("Reference")] public BoxCollider2D doorCollider;
 
 
         private Animator Animator
         {
             get
             {
-                if (animator == null ) animator = GetComponent<Animator>();
+                if (animator == null) animator = GetComponent<Animator>();
                 return animator;
             }
         }
@@ -35,13 +36,13 @@ namespace Cainos.PixelArtPlatformer_Dungeon
             {
                 isOpened = value;
 
-                #if UNITY_EDITOR
+#if UNITY_EDITOR
                 if (Application.isPlaying == false)
                 {
                     EditorUtility.SetDirty(this);
                     EditorSceneManager.MarkSceneDirty(gameObject.scene);
                 }
-                #endif
+#endif
 
 
                 if (Application.isPlaying)
@@ -50,11 +51,12 @@ namespace Cainos.PixelArtPlatformer_Dungeon
                 }
                 else
                 {
-                    if(spriteRenderer) spriteRenderer.sprite = isOpened ? spriteOpened : spriteClosed;
+                    if (spriteRenderer) spriteRenderer.sprite = isOpened ? spriteOpened : spriteClosed;
                 }
+                if (doorCollider) doorCollider.enabled = !isOpened;
             }
         }
-        [SerializeField,HideInInspector]
+        [SerializeField, HideInInspector]
         private bool isOpened;
 
         private void Start()
@@ -75,5 +77,6 @@ namespace Cainos.PixelArtPlatformer_Dungeon
         {
             IsOpened = false;
         }
+
     }
 }
