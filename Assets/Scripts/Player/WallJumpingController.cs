@@ -9,7 +9,7 @@ public class WallJumpingController : MonoBehaviour
     // Wall sliding variables
     private bool isWallSliding;
     private float wallSlidingSpeed = 0.2f;
-
+    
     // Wall jumping variables
     private bool isWallJumping;
     private float wallJumpingDuration = 0.8f;
