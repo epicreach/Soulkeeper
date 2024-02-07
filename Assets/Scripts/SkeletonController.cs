@@ -15,7 +15,12 @@ public class SkeletonController : MonoBehaviour
     private float timeAway;
     public float timeToBeAway;
     private bool pursuit;
+    
 
+    private void Start()
+    {
+        
+    }
     private void FixedUpdate()
     {
         
