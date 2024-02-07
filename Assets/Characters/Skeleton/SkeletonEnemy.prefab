@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 7127549375659290407}
   - component: {fileID: 2813595043060502352}
   - component: {fileID: -8407632275341734338}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SkeletonEnemy
   m_TagString: SkeletonEnemy
   m_Icon: {fileID: 0}
@@ -264,6 +264,8 @@ MonoBehaviour:
   pointA: {fileID: 0}
   pointB: {fileID: 0}
   speed: 0
+  stopPatrolAfter: 5
+  sightDistance: 5
 --- !u!114 &2813595043060502352
 MonoBehaviour:
   m_ObjectHideFlags: 0

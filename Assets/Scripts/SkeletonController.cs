@@ -11,10 +11,7 @@ public class SkeletonController : MonoBehaviour
     //Ifall spelaren kommer tillräckligt långt bort och är borta tillräckligt länge slutar den följa efter.
     // Ifall fienden inte är i pursuit så ska den gå fram och tillbaka.
     // Ifall den går in i en vägg ska den stanna
-    public float pursuitDistance;
-    private float timeAway;
-    public float timeToBeAway;
-    private bool pursuit;
+    
     
 
     private void Start()
