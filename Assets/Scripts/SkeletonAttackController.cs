@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,11 +7,13 @@ public class SkeletonAttackController : MonoBehaviour
 {
     Rigidbody2D rb;
     bool attackActive = false;
+    [SerializeField]
     private float attackDistance = 1f;
     private Rigidbody2D playerBody;
     private float timeUntilDamage = 0.2f;
     Animator anim;
     private float timeSinceLastAttack = 0f;
+    [SerializeField]
     private float timeBetweenAttacks = 3f;
     // Can be used to change time until damage in the unity editor
     private float TimeForDamage;
