@@ -8,7 +8,7 @@ public class SpearDamage : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            other.gameObject.GetComponent<Damagable>().Health -= 10;
+            other.gameObject.GetComponent<Damagable>().Hit(10);
             Debug.Log("Took 10 damage from spear trap!");
         }
     }
