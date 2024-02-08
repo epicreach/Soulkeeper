@@ -31,7 +31,7 @@ public class PlayerPotionScript : MonoBehaviour
             amountOfPotions++;
         }
     }
-    private void useHealthPotion(InputAction.CallbackContext callback)
+    private void useHealthPotion(InputAction.CallbackContext callback) 
     {
         if(amountOfPotions > 0)
         {
