@@ -95025,7 +95025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c807390b76044c7e5850a0f935bfa33d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2119826671
+--- !u!114 &2119826677
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -95034,9 +95034,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 2119826643}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6982c27fd0867f6a3bf060d3958168ae, type: 3}
+  m_Script: {fileID: 11500000, guid: 1aef3673e93d7ce42afdba078532fd05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _maxHealth: 100
+  _health: 100
+  _isAlive: 1
+  isInvincible: 0
+  invincibilityTime: 0.25
 --- !u!1001 &2123618193
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -95389,7 +95394,7 @@ PrefabInstance:
       addedObject: {fileID: 2119826670}
     - targetCorrespondingSourceObject: {fileID: 8551288292280716452, guid: 189a8adc65a61024aa1877de14a53603, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2119826671}
+      addedObject: {fileID: 2119826677}
   m_SourcePrefab: {fileID: 100100000, guid: 189a8adc65a61024aa1877de14a53603, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
