@@ -17,6 +17,13 @@ public class TouchingDirections : MonoBehaviour
         isGround = value;
     } }
 
+    private bool isTouchingWall;
+    public bool TouchingWall { get { return isTouchingWall; }
+    private set {
+        isTouchingWall = value;
+    }
+    }
+
 
     Rigidbody2D rb;
     CapsuleCollider2D collider;
@@ -34,6 +41,14 @@ public class TouchingDirections : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+
+        CheckIsGrounded();
+        CheckTouchingWall();
+    }
+
+
+    void CheckIsGrounded() {
+            
         isGround = collider.Cast(Vector2.down, castFilter, raycastHits, raycastDistance) > 0;
 
         if (!IsGrounded) {
@@ -42,6 +57,14 @@ public class TouchingDirections : MonoBehaviour
         else {
             animator.SetBool("IsGrounded", true);
         }
+    }
+
+    void CheckTouchingWall() {
+
+        // Checks if player is touching wall to left or to right.
+        isTouchingWall = collider.Cast(Vector2.right, castFilter, raycastHits, raycastDistance) > 0;
+        isTouchingWall |= collider.Cast(Vector2.left, castFilter, raycastHits, raycastDistance) > 0;
 
     }
+
 }

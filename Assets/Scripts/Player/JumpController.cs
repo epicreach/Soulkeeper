@@ -7,7 +7,7 @@ public class JumpController : MonoBehaviour
 {
 
 
-    public float jumpHeight = 6f;
+    public float jumpHeight = 8f;
     public int maxJumps = 2;
     public int jumpCount = 0;
 
@@ -24,7 +24,7 @@ public class JumpController : MonoBehaviour
 
     private void Awake() {
         playerController = GetComponent<PlayerController>();
-        input = playerController.input;
+        input = new DefaultPlayerInputs();
         rb = GetComponent<Rigidbody2D>();
         touchingDirections = GetComponent<TouchingDirections>();
         animator = GetComponent<Animator>();
@@ -32,16 +32,17 @@ public class JumpController : MonoBehaviour
     }
 
     private void OnEnable() {
+        input.Enable();
         input.Player.Jump.performed += OnJumpPerformed;
     }
 
     private void OnDisable() {
+        input.Disable();
         input.Player.Jump.performed -= OnJumpPerformed;
 
     }
 
     private void OnJumpPerformed(InputAction.CallbackContext context) {
-        Debug.Log("Jumped");
         if (jumpCount < maxJumps - 1) {
              rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
              jumpCount++;

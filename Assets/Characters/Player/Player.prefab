@@ -185,7 +185,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSpeed: 5
-  jumpHeight: 6
+  dashForce: 2
+  dashDuration: 0.4
+  spriteRenderer: {fileID: 0}
+  inputVector: {x: 0, y: 0}
 --- !u!114 &1889166923880529645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -198,3 +201,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 533a105fc10306f418e9526105e30a78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  castFilter:
+    useTriggers: 0
+    useLayerMask: 0
+    useDepth: 0
+    useOutsideDepth: 0
+    useNormalAngle: 0
+    useOutsideNormalAngle: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 0
+    minDepth: 0
+    maxDepth: 0
+    minNormalAngle: 0
+    maxNormalAngle: 0
+  animator: {fileID: 0}
+  raycastDistance: 0.2

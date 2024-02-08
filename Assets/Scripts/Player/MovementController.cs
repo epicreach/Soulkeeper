@@ -11,11 +11,18 @@ public class PlayerController : MonoBehaviour
 
     private Animator animator;
 
+    private float rollSpeed = 10.0f;
+    private float rollDuration = 0.6f;
+
+    private bool isRolling;
+
     public float walkSpeed = 5f;
     public float dashForce = 2f;
     public float dashDuration = 0.4f;
     private bool isDashing = false;
     public DefaultPlayerInputs input = null;
+
+    private TouchingDirections touchingDirections;
 
     public SpriteRenderer spriteRenderer;
 
@@ -24,6 +31,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
 
     private void Awake() {
+        touchingDirections = GetComponent<TouchingDirections>();
         input = new DefaultPlayerInputs();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
@@ -34,19 +42,23 @@ public class PlayerController : MonoBehaviour
         input.Enable();
         input.Player.Move.performed += OnMovementPerformed;
         input.Player.Move.canceled += OnMovementCancelled;
-        input.Player.Slide.performed += OnDashPerformed;
+        input.Player.Dash.performed += OnDashPerformed;
+        input.Player.Roll.performed += OnRollPerformed;
+
     }
 
     private void OnDisable() {
         input.Disable();
         input.Player.Move.performed -= OnDashPerformed;
-        input.Player.Slide.canceled -= OnDashPerformed;
+        input.Player.Dash.canceled -= OnDashPerformed;
+        input.Player.Roll.performed -= OnRollPerformed;
+
     }
 
 
     void FixedUpdate() {
 
-        if (isDashing) {
+        if (isDashing || isRolling) {
             rb.velocity = new Vector2(rb.velocity.x, 0);
             return;
         }
@@ -58,13 +70,12 @@ public class PlayerController : MonoBehaviour
     private void OnMovementPerformed(InputAction.CallbackContext context) {
         inputVector = context.ReadValue<Vector2>();
         animator.SetBool("IsRunning", true);
-        animator.SetBool("FacingRight", true);
 
         if (inputVector.x < 0) {
-            spriteRenderer.flipX = true;
+            FlipPlayer(-1f);
         }
         else {
-            spriteRenderer.flipX = false;
+            FlipPlayer(1f);
         }
 
     }
@@ -82,12 +93,38 @@ public class PlayerController : MonoBehaviour
     {
         isDashing = true;
         animator.SetBool("IsDashing", true);
-        float playerDirection = spriteRenderer.flipX ? -1f : 1f;
+        float playerDirection = transform.localScale.x;
         rb.velocity = new Vector2(playerDirection * (walkSpeed * dashForce), 0);
-        Debug.Log(rb.velocity);
         yield return new WaitForSeconds(dashDuration);
         animator.SetBool("IsDashing", false);
         isDashing = false;
 
     }
+
+    public void FlipPlayer(float direction) {
+            Vector3 localScale = transform.localScale;
+            localScale.x = direction;
+            transform.localScale = localScale;
+    }
+
+
+
+    void OnRollPerformed(InputAction.CallbackContext context) {
+      if (touchingDirections.IsGrounded) {
+        StartCoroutine(Roll());
+      }
+    }
+
+    IEnumerator Roll() {
+        isRolling = true;
+        GetComponent<CapsuleCollider2D>().enabled = false;
+        animator.SetTrigger("Rolling");
+        float playerDirection = transform.localScale.x;
+        rb.velocity = new Vector2(playerDirection * rollSpeed, 0);
+        yield return new WaitForSeconds(rollDuration);
+        GetComponent<CapsuleCollider2D>().enabled = true;
+
+        isRolling = false;
+    }
+
 }

@@ -113,12 +113,18 @@ namespace Cainos.PixelArtPlatformer_Dungeon
         {
             Length = secondOrderDynamics.Update(targetLength, Time.fixedDeltaTime);
         }
+        public void Activate()
+        {
+            waitTime = 1.0f;
+            Debug.Log("Elevator Opened");
+        }
 
         public enum State
         {
             Up,
             Down
         }
+
     }
 }
 
