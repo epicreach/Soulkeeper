@@ -35,15 +35,23 @@ public class SwordController : MonoBehaviour
         {
             Debug.Log("Enemy hit!");
         }
+        boxCollider.enabled = false;
     }
 
+    void OnTriggerStay2D(Collider2D other)
+    {
+        boxCollider.enabled = false;
+    }
+
+    void OnTriggerExit(Collider2D other)
+    {
+        boxCollider.enabled = false;
+    }
 
     void OnAttackPerformed(InputAction.CallbackContext context) {
 
         boxCollider.enabled = true;
         animator.Play("SwordAttack1");
-        boxCollider.enabled = false;
-
 
     }
 
