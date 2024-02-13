@@ -10,6 +10,11 @@ public class SpearDamage : MonoBehaviour
         {
             other.gameObject.GetComponent<Damagable>().Health -= 10;
             Debug.Log("Took 10 damage from spear trap!");
+        } else if(other.gameObject.tag == "SkeletonEnemy")
+        {
+            SkeletonHealthController shk = other.gameObject.GetComponent<SkeletonHealthController>();
+            shk.takeDamage(2);
+
         }
     }
 }
