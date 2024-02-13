@@ -7,16 +7,18 @@ public class PlayerPotionScript : MonoBehaviour
     private int amountOfPotions;
     private int maxAmountOfPotions = 3;
     public InputAction usePotion;
-    // private PlayerHealthScript playerScript 
+    Damagable damageable;
+    
     
     // Start is called before the first frame update
-    void Start()
-    {
+    void Start() { 
+    
+        damageable = GetComponent<Damagable>();
         
         usePotion.Enable();
         usePotion.performed += useHealthPotion;
         amountOfPotions = maxAmountOfPotions;
-        // this.gameObject.PlayerHealthScript
+        
     }
 
     // Update is called once per frame
@@ -36,7 +38,11 @@ public class PlayerPotionScript : MonoBehaviour
         if(amountOfPotions > 0)
         {
             amountOfPotions--;
-            //todo heal player
+            Debug.Log(damageable);
+            if(damageable != null)
+            {
+                damageable.Health = damageable.Health + 20;
+            }
 
         }
     }

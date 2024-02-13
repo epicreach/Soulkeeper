@@ -10,7 +10,7 @@ public class SkeletonAttackController : MonoBehaviour
     [SerializeField]
     private float attackDistance = 1f;
     private Rigidbody2D playerBody;
-    private float timeUntilDamage = 0.2f;
+    private float timeUntilDamage = 0.5f;
     Animator anim;
     private float timeSinceLastAttack = 0f;
     [SerializeField]
@@ -19,11 +19,14 @@ public class SkeletonAttackController : MonoBehaviour
     private float TimeForDamage;
     // If player is close enough attack, wait a few milliseconds and check again, if player is in range deal damage.
     //TODO make it so that the enemy can not attack when it is in hit mode.
+
+    SkeletonMovement skeletonMovement;
     void Start()
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         playerBody = FindObjectOfType<PlayerController>().gameObject.GetComponent<Rigidbody2D>();
+        skeletonMovement = GetComponent<SkeletonMovement>();
         if (playerBody == null)
         {
             Debug.Log("Player rigidbody can not be found through controller");
@@ -33,6 +36,9 @@ public class SkeletonAttackController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!skeletonMovement.getStopState())
+        {
+
         timeSinceLastAttack -= Time.deltaTime;
         bool playerInRange = isPlayerInRange();
         if (playerInRange && !attackActive && timeSinceLastAttack <= 0)
@@ -55,16 +61,22 @@ public class SkeletonAttackController : MonoBehaviour
             timeUntilDamage -= Time.deltaTime;
             if(timeUntilDamage <= 0)
             {
-                Debug.Log("Possible damage");
                 if (playerInRange)
                 {
-                    Debug.Log("Enemy dealt damage");
-                    //todo deal damage to player
+                    RaycastHit2D ray = Physics2D.Raycast(rb.position, rb.velocity, attackDistance, ~LayerMask.GetMask("SkeletonEnemy"));
+                    Damagable other = ray.collider.gameObject.GetComponent<Damagable>();
+                    if (other != null)
+                    {
+                        other.Hit(10);
+                    }
+                   
+                   
                 }
                 timeUntilDamage = 0.2f;
                 attackActive = false;
 
             }
+        }
         }
     }
     
