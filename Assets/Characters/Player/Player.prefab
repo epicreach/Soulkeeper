@@ -15,8 +15,6 @@ GameObject:
   - component: {fileID: 8229485023454451733}
   - component: {fileID: 8489956657895354227}
   - component: {fileID: 1889166923880529645}
-  - component: {fileID: 4653573764096954473}
-  - component: {fileID: 3540213979267795758}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -219,62 +217,3 @@ MonoBehaviour:
     maxNormalAngle: 0
   animator: {fileID: 0}
   raycastDistance: 0.2
---- !u!114 &4653573764096954473
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8551288292280716452}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d4d9220a999e6241a7259b470a9b5c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  usePotion:
-    m_Name: Use Potion
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: 5eb20a67-4090-47f3-967e-0627e80b95f6
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings:
-    - m_Name: 
-      m_Id: 2bfd3c8d-8be5-4929-acf4-c8381f326859
-      m_Path: <Keyboard>/q
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Use Potion
-      m_Flags: 0
-    m_Flags: 0
---- !u!114 &3540213979267795758
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8551288292280716452}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: db6ef2d757497944687f69dac0626402, type: 3}
-  m_NotificationBehavior: 0
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents: []
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: UseBottle
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
