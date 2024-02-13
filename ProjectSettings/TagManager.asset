@@ -7,14 +7,15 @@ TagManager:
   - Ground
   - Platform
   - Enemy
+  - SkeletonEnemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
+  - SkeletonEnemy
   - 
   - 
   - 

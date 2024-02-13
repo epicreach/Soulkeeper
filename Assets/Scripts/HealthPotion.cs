@@ -36,5 +36,9 @@ public class HealthPotion : MonoBehaviour
         hit = true;
 
         }
+        else
+        {
+            Debug.Log(collision.gameObject.tag);
+        }
     }
 }
