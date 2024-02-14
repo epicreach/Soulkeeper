@@ -33,7 +33,16 @@ public class GooBallController : MonoBehaviour
 
         rb.velocity = travelDirection * speed;
 
+    }
+
+    void OnTriggerEnter2D(Collider2D other) {
+
+        if (other.tag =="Player") {
+            Debug.Log("Player Damaged");
+            Destroy(gameObject);
+        }
 
     }
+    
 
 }
