@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a43d54c57e797b54fb99dc5f03b508c2
+guid: e9663a0720ca17c47ac97b5373dea3b1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,127 +110,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: _Attack2_0
+      name: healthpotion
       rect:
         serializedVersion: 2
-        x: 43
-        y: 0
-        width: 36
-        height: 36
+        x: 0
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a7d033946810ec43af97bb17cd29de6
-      internalID: -1911221059
+      spriteID: d9a26c563ee73df4b9d6d0e755e859fd
+      internalID: -1320882336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _Attack2_1
+      name: "po\xE7\u255Eo vermelha_1"
       rect:
         serializedVersion: 2
-        x: 159
-        y: 0
-        width: 40
-        height: 36
+        x: 16
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c6abd7077c981946a5a4bcc562c69e8
-      internalID: 1884556699
+      spriteID: 19678ed0c6129604dad8ebb355def781
+      internalID: -965851195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _Attack2_2
+      name: "po\xE7\u255Eo vermelha_2"
       rect:
         serializedVersion: 2
-        x: 274
-        y: 0
-        width: 75
-        height: 40
+        x: 32
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be993a2a20b8b00459738628b930a0eb
-      internalID: -1403408777
+      spriteID: 78f552039ccda7e4787df568b16eb501
+      internalID: 112680594
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _Attack2_3
+      name: "po\xE7\u255Eo vermelha_3"
       rect:
         serializedVersion: 2
-        x: 391
-        y: 0
-        width: 62
-        height: 35
+        x: 0
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3ca9e6bcdba0e9429be72b9ed9f85c6
-      internalID: 1747643262
+      spriteID: f25717278db02b1438969dbeeb71fc86
+      internalID: 762459506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _Attack2_4
+      name: "po\xE7\u255Eo vermelha_4"
       rect:
         serializedVersion: 2
-        x: 511
-        y: 0
-        width: 44
-        height: 35
+        x: 16
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f0b96cb4a28f8948b5414cabfd34932
-      internalID: -417615272
+      spriteID: 9f675e88049174b4a8dc03e43a65d9f2
+      internalID: 37103628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _Attack2_5
+      name: "po\xE7\u255Eo vermelha_5"
       rect:
         serializedVersion: 2
-        x: 631
-        y: 0
-        width: 43
-        height: 35
+        x: 32
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 643693545684cbe4c915492af95081af
-      internalID: -1549242552
+      spriteID: 77b9ed634f445d44c84eee2095ef7810
+      internalID: -854611542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "po\xE7\u255Eo vermelha_6"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d141d4c0398e1469c718180c7972f3
+      internalID: -1606228929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "po\xE7\u255Eo vermelha_7"
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd008d29e03591c4eacfbbcdf267e39f
+      internalID: 993558916
       vertices: []
       indices: 
       edges: []
@@ -246,12 +288,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      _Attack2_0: -1911221059
-      _Attack2_1: 1884556699
-      _Attack2_2: -1403408777
-      _Attack2_3: 1747643262
-      _Attack2_4: -417615272
-      _Attack2_5: -1549242552
+      healthpotion: -1320882336
+      "po\xE7\u255Eo vermelha_1": -965851195
+      "po\xE7\u255Eo vermelha_2": 112680594
+      "po\xE7\u255Eo vermelha_3": 762459506
+      "po\xE7\u255Eo vermelha_4": 37103628
+      "po\xE7\u255Eo vermelha_5": -854611542
+      "po\xE7\u255Eo vermelha_6": -1606228929
+      "po\xE7\u255Eo vermelha_7": 993558916
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

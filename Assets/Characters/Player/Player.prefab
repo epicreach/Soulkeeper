@@ -15,7 +15,8 @@ GameObject:
   - component: {fileID: 8229485023454451733}
   - component: {fileID: 8489956657895354227}
   - component: {fileID: 1889166923880529645}
-  m_Layer: 0
+  - component: {fileID: 7036832692561740901}
+  m_Layer: 3
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -217,3 +218,32 @@ MonoBehaviour:
     maxNormalAngle: 0
   animator: {fileID: 0}
   raycastDistance: 0.2
+--- !u!114 &7036832692561740901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8551288292280716452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d4d9220a999e6241a7259b470a9b5c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  usePotion:
+    m_Name: Use Potion
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: a33915c8-42a9-4186-a46b-77064abcfe75
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: f151540d-d873-4344-b517-01f4e147b4ca
+      m_Path: <Keyboard>/q
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Use Potion
+      m_Flags: 0
+    m_Flags: 0
