@@ -20,6 +20,8 @@ public class PlayerController : MonoBehaviour
     public float dashForce = 2f;
     public float dashDuration = 0.4f;
     private bool isDashing = false;
+    [SerializeField]
+    AudioSource audioSrc;
     public DefaultPlayerInputs input = null;
 
     private TouchingDirections touchingDirections;
@@ -70,7 +72,7 @@ public class PlayerController : MonoBehaviour
     private void OnMovementPerformed(InputAction.CallbackContext context) {
         inputVector = context.ReadValue<Vector2>();
         animator.SetBool("IsRunning", true);
-
+        audioSrc.Play();
         if (inputVector.x < 0) {
             FlipPlayer(-1f);
         }
@@ -83,6 +85,8 @@ public class PlayerController : MonoBehaviour
     private void OnMovementCancelled(InputAction.CallbackContext context) {
         inputVector = Vector2.zero;
         animator.SetBool("IsRunning", false);
+        audioSrc.Stop();
+        
     }
 
     private void OnDashPerformed(InputAction.CallbackContext context) {
