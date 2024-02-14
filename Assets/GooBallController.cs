@@ -6,7 +6,7 @@ using UnityEngine;
 public class GooBallController : MonoBehaviour
 {
 
-    public GameObject player;
+    GameObject player;
 
     Rigidbody2D rb;
 
@@ -18,6 +18,9 @@ public class GooBallController : MonoBehaviour
         Vector2 travelDirection;
 
     void Awake() {
+
+        player = GameObject.Find("Player");
+
         rb = GetComponent<Rigidbody2D>();
 
         playerPosition = player.transform.position;
