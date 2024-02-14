@@ -17,7 +17,7 @@ public class TentacleController : MonoBehaviour
 
         if (other.tag == "Player") {
             /// TODO DAMAGE PLAYER
-            killTentacle();
+            Debug.Log("Damage Player");
         }
     }
 
