@@ -8,14 +8,20 @@ public class SwordController : MonoBehaviour
 
     DefaultPlayerInputs input;
     Animator animator;
-
     BoxCollider2D boxCollider;
+    [SerializeField] private float attackCooldown;
+    private float attackCooldownTimer = Mathf.Infinity;
 
     void Awake() {
         boxCollider = GetComponent<BoxCollider2D>();
         boxCollider.enabled = false;
         input = new DefaultPlayerInputs();
         animator = GetComponent<Animator>();
+    }
+
+    private void Update()
+    {
+       attackCooldownTimer += Time.deltaTime;
     }
 
     void OnEnable() {
@@ -40,11 +46,13 @@ public class SwordController : MonoBehaviour
 
     void OnAttackPerformed(InputAction.CallbackContext context) {
 
+        if(attackCooldownTimer > attackCooldown)
+        {
         boxCollider.enabled = true;
         animator.Play("SwordAttack1");
         boxCollider.enabled = false;
-
-
+        attackCooldownTimer = 0;    
+        }
     }
 
 

@@ -43,7 +43,7 @@ public class SkeletonMovement : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log("Patrol: " + patrol);
+        //Debug.Log("Patrol: " + patrol);
         calculatePatrolStatus();
 
         if (stop)
