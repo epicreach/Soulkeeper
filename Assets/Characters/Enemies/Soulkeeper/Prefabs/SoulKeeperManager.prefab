@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1447559289091516388}
   - component: {fileID: 8343953823964450638}
   m_Layer: 0
-  m_Name: SoulKeeperBoss
+  m_Name: SoulKeeperManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
