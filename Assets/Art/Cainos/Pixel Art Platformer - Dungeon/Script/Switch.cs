@@ -95,8 +95,13 @@ namespace Cainos.PixelArtPlatformer_Dungeon
         [FoldoutGroup("Runtime"), HorizontalGroup("Runtime/Button"), Button("Turn On")]
         public void TurnOn()
         {
+            if (!isOn)
+            {
+                audioSrc.Play();
+            }
             IsOn = true;
-            audioSrc.Play();
+            
+            
         }
 
         [FoldoutGroup("Runtime"), HorizontalGroup("Runtime/Button"), Button("Turn Off")]
