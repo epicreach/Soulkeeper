@@ -6,7 +6,6 @@ TagManager:
   tags:
   - Ground
   - Platform
-  - Enemy
   - SkeletonEnemy
   layers:
   - Default
