@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class Damagable : MonoBehaviour
@@ -19,7 +20,7 @@ public class Damagable : MonoBehaviour
         }
     }
     [SerializeField]
-    private int _health = 100;
+    private int _health;
 
     public int Health
     {
@@ -29,7 +30,8 @@ public class Damagable : MonoBehaviour
         }
         set
         {
-            _health = value;
+            _health = math.clamp(value, 0, _maxHealth);
+            
             if (_health <= 0)
             {
                 IsAlive = false;

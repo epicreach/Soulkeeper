@@ -52,6 +52,7 @@ public class SkeletonMovement : MonoBehaviour
         }
         if (!stop)
         {
+            calculatePatrolStatus();
             if (patrol)
             {
                 patrolBetweenPoints();
@@ -148,6 +149,10 @@ public class SkeletonMovement : MonoBehaviour
     public void setStopState(bool stopState)
     {
         stop = stopState;
+    }
+    public bool getStopState()
+    {
+        return stop;
     }
 
     // sets the velocity depending on where the enemy is inbetween the points
