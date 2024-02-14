@@ -36,6 +36,11 @@ public class SwordController : MonoBehaviour
             Debug.Log("Enemy hit!");
         }
         boxCollider.enabled = false;
+        Damagable damageable = other.gameObject.GetComponent<Damagable>();
+        if (damageable != null)
+        {
+            damageable.Hit(20);
+        }
     }
 
     void OnTriggerStay2D(Collider2D other)

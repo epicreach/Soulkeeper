@@ -12,39 +12,36 @@ public class SkeletonHealthController : MonoBehaviour
     private SkeletonMovement SkeletonMovement;
     private bool tookDamage = false;
     private Rigidbody2D rb;
+    float timer = 1.1f;
+    bool isAlive = true;
+    Damagable damageable;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         SkeletonMovement = GetComponent<SkeletonMovement>();
+        damageable = GetComponent<Damagable>();
     }
-    public void takeDamage(float damage)
-    {
-        if (invincibleTimer <= 0)
-        {
-            SkeletonMovement.setStopState(true);
-            getHit();
-            Debug.Log("Skeleton took damage");
-        } 
-        
-    }
-    private void getHit()
-    {
-        if (rb.velocity.x != 0) 
-        {
-            anim.SetTrigger("hitWalking");
-        }
-        else
-        {
-            anim.SetTrigger("hitIdle");
-        }
-    }
+   
+    
     // Update is called once per frame
     void Update()
     {
-        if (invincibleTimer > 0)
+        if(timer <= 0)
         {
-            invincibleTimer -= Time.deltaTime;
+            GameObject.Destroy(gameObject);
+        }
+        if (!isAlive)
+        {
+            timer -= Time.deltaTime;
+        }
+        if(damageable.Health <= 0)
+        {
+            
+            SkeletonMovement.setStopState(true);
+            anim.SetTrigger("Death");
+            isAlive = false;
+
         }
     }
 }
