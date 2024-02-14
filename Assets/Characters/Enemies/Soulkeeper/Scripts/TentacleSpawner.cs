@@ -5,7 +5,7 @@ using UnityEngine;
 public class TentacleSpawner : MonoBehaviour
 {
 
-    int maxTentacles = 4;
+    int maxTentacles = 7;
     int tentacleCount = 0;
 
     public GameObject tentacle;
@@ -16,7 +16,9 @@ public class TentacleSpawner : MonoBehaviour
 
         if (tentacleCount >= maxTentacles) return;
 
-        SpawnTentacle(new Vector2(0,0));
+
+        int x = Random.Range(0,40);
+        SpawnTentacle(new Vector2(x,7.7f));
 
     }
 
