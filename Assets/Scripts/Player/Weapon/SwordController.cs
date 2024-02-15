@@ -8,7 +8,8 @@ public class SwordController : MonoBehaviour
 
     DefaultPlayerInputs input;
     Animator animator;
-
+    public AudioSource audioSrc;
+    public AudioClip clip;
     BoxCollider2D boxCollider;
 
     void Awake() {
@@ -21,6 +22,7 @@ public class SwordController : MonoBehaviour
     void OnEnable() {
         input.Enable();
         input.Player.Attack.performed += OnAttackPerformed;
+
     }
 
     void OnDisable() {
@@ -57,6 +59,7 @@ public class SwordController : MonoBehaviour
 
         boxCollider.enabled = true;
         animator.Play("SwordAttack1");
+        audioSrc.PlayOneShot(clip);
 
     }
 
