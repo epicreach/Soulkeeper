@@ -7,16 +7,19 @@ TagManager:
   - Ground
   - Platform
   - Enemy
+  - Tentacle
+  - Enemy
   - SkeletonEnemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
+  - Enemy
   - Player
   - Water
   - UI
   - SkeletonEnemy
-  - 
+  - Player
   - 
   - 
   - 
