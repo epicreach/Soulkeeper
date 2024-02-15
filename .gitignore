@@ -45,6 +45,3 @@ Thumbs.db
 *.log-*
 *.log
 *.log
-Logs/shadercompiler-UnityShaderCompiler.exe0.log
-*.log
-*.dwlt
