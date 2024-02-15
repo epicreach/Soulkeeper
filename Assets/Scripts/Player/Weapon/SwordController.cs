@@ -41,6 +41,8 @@ public class SwordController : MonoBehaviour
             damageable.Hit(20);
         }
         boxCollider.enabled = false;
+
+
     }
 
     void OnTriggerStay2D(Collider2D other)
