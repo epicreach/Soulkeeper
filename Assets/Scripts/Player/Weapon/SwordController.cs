@@ -2,14 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Rendering;
 
 public class SwordController : MonoBehaviour
 {
 
     DefaultPlayerInputs input;
     Animator animator;
-    public AudioSource audioSrc;
-    public AudioClip clip;
+
+    float swordCooldown = 0.5f;
+
     BoxCollider2D boxCollider;
 
     void Awake() {
@@ -22,7 +24,6 @@ public class SwordController : MonoBehaviour
     void OnEnable() {
         input.Enable();
         input.Player.Attack.performed += OnAttackPerformed;
-
     }
 
     void OnDisable() {
@@ -32,36 +33,34 @@ public class SwordController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        // Check if the collider is an enemy
-        if (other.CompareTag("Enemy"))
-        {
-            Debug.Log("Enemy hit!");
-        }
+
+        if (boxCollider.enabled == false) return;
+
         boxCollider.enabled = false;
         Damagable damageable = other.gameObject.GetComponent<Damagable>();
+        
         if (damageable != null)
         {
             damageable.Hit(20);
         }
+
+
     }
 
-    void OnTriggerStay2D(Collider2D other)
-    {
-        boxCollider.enabled = false;
-    }
-
-    void OnTriggerExit(Collider2D other)
-    {
-        boxCollider.enabled = false;
-    }
 
     void OnAttackPerformed(InputAction.CallbackContext context) {
 
         boxCollider.enabled = true;
         animator.Play("SwordAttack1");
-        audioSrc.PlayOneShot(clip);
+        Invoke("DisableCollisionBox", swordCooldown);
 
     }
+
+    void DisableCollisionBox() {
+        boxCollider.enabled = false;
+    }
+
+ 
 
 
 

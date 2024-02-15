@@ -14,9 +14,6 @@ namespace Cainos.PixelArtPlatformer_Dungeon
         [FoldoutGroup("Reference")] public SpriteRenderer spriteRenderer;
         [FoldoutGroup("Reference")] public Sprite spriteOn;
         [FoldoutGroup("Reference")] public Sprite spriteOff;
-        
-        [SerializeField]
-        public AudioSource audioSrc;
 
         private Animator Animator
         {
@@ -95,13 +92,7 @@ namespace Cainos.PixelArtPlatformer_Dungeon
         [FoldoutGroup("Runtime"), HorizontalGroup("Runtime/Button"), Button("Turn On")]
         public void TurnOn()
         {
-            if (!isOn)
-            {
-                audioSrc.Play();
-            }
             IsOn = true;
-            
-            
         }
 
         [FoldoutGroup("Runtime"), HorizontalGroup("Runtime/Button"), Button("Turn Off")]

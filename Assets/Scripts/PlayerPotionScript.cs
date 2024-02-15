@@ -8,14 +8,11 @@ public class PlayerPotionScript : MonoBehaviour
     private int maxAmountOfPotions = 3;
     public InputAction usePotion;
     Damagable damageable;
-    public AudioSource audioSrc;
-    public AudioClip useBottle;
-    public AudioClip pickupBottle;
     
     
     // Start is called before the first frame update
     void Start() { 
-        
+    
         damageable = GetComponent<Damagable>();
         
         usePotion.Enable();
@@ -31,7 +28,6 @@ public class PlayerPotionScript : MonoBehaviour
     }
     public void addHealthPotion()
     {
-        audioSrc.PlayOneShot(pickupBottle);
         if(amountOfPotions < maxAmountOfPotions)
         {
             amountOfPotions++;
@@ -43,7 +39,6 @@ public class PlayerPotionScript : MonoBehaviour
         {
             amountOfPotions--;
             Debug.Log(damageable);
-            audioSrc.PlayOneShot(useBottle);
             if(damageable != null)
             {
                 damageable.Health = damageable.Health + 20;
