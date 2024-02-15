@@ -16,4 +16,23 @@ public class SoulkeeperEntityController : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    void Teleport() {
+        float currentX = transform.position.x;
+        float newX = Random.Range(0,40);
+
+        transform.position = new Vector2(newX, transform.position.y);
+
+    }
+
+    void OnTriggerStay2D(Collider2D other) {
+
+        Damagable damagable = other.GetComponent<Damagable>();
+
+        if (damagable != null) {
+            damagable.Hit(20);
+        }
+
+    }
+
 }

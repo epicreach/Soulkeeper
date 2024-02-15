@@ -4,29 +4,25 @@ using UnityEngine;
 
 public class TentacleController : MonoBehaviour
 {
-    CapsuleCollider2D collider;
 
     Damagable damagable;
 
-    float health = 50f;
+    int damage = 20;
 
     void Awake() {
-        collider = GetComponent<CapsuleCollider2D>();
         damagable = GetComponent<Damagable>();
     }
 
 
 
-    void OnTriggerEnter2D(Collider2D other) {
+    void OnTriggerStay2D(Collider2D other) {
 
-        if (other.tag == "Player") {
-            /// TODO DAMAGE PLAYER
-            Debug.Log("Damaged Player");
+        if (other.CompareTag("Player")) {
+            Damagable temp = other.GetComponent<Damagable>();
+            if (temp != null) {
+                temp.Hit(damage);
+            }
         }
-    }
-
-    public void takeDamage(float damage) {
-        health -= damage;
     }
 
 
