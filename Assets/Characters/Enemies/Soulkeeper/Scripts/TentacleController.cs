@@ -6,11 +6,15 @@ public class TentacleController : MonoBehaviour
 {
     CapsuleCollider2D collider;
 
+    Damagable damagable;
+
     float health = 50f;
 
     void Awake() {
         collider = GetComponent<CapsuleCollider2D>();
+        damagable = GetComponent<Damagable>();
     }
+
 
 
     void OnTriggerEnter2D(Collider2D other) {
@@ -31,9 +35,10 @@ public class TentacleController : MonoBehaviour
     }
 
     void FixedUpdate() {
-        if (health <= 0) {
+        if (damagable.Health <= 0) {
             killTentacle();
-        }
+            }
     }
+
 
 }
