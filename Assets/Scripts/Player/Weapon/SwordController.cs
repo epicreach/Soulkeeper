@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Rendering;
 
 public class SwordController : MonoBehaviour
 {
 
     DefaultPlayerInputs input;
     Animator animator;
+
+    float swordCooldown = 0.5f;
 
     BoxCollider2D boxCollider;
 
@@ -40,22 +43,24 @@ public class SwordController : MonoBehaviour
         {
             damageable.Hit(20);
         }
-        boxCollider.enabled = false;
 
 
     }
 
-    void OnTriggerStay2D(Collider2D other)
-    {
-        boxCollider.enabled = false;
-    }
 
     void OnAttackPerformed(InputAction.CallbackContext context) {
 
         boxCollider.enabled = true;
         animator.Play("SwordAttack1");
+        Invoke("DisableCollisionBox", swordCooldown);
 
     }
+
+    void DisableCollisionBox() {
+        boxCollider.enabled = false;
+    }
+
+ 
 
 
 

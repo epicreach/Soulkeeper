@@ -6,18 +6,26 @@ public class SoulkeeperEntityController : MonoBehaviour
 {
 
     Damagable damagable;
+
+    BoxCollider2D collider;
     int health;
+
+    Animator animator;
 
     void Awake() {
         damagable = GetComponent<Damagable>();
         health = damagable.Health;
+        animator = GetComponent<Animator>();
+        collider = GetComponent<BoxCollider2D>();
     }
 
     void FixedUpdate() {
 
         if (health != damagable.Health) {
-            Teleport();
+            animator.Play("SoulkeeperSink");
             health = damagable.Health;
+            collider.enabled = false;
+            Invoke("Teleport", 1.2f);
         }
 
         if (damagable.Health <= 0) {
@@ -26,11 +34,12 @@ public class SoulkeeperEntityController : MonoBehaviour
     }
 
     public void Teleport() {
-        float currentX = transform.position.x;
-        float newX = Random.Range(0,40);
-        Debug.Log("Teleported");
-        transform.position = new Vector2(newX, transform.position.y);
+        float currentX = 0;
+        float newX = 0;
 
+        newX = Random.Range(5,35);
+        transform.position = new Vector2(newX, transform.position.y);
+        collider.enabled = true;
     }
 
     void OnTriggerStay2D(Collider2D other) {
