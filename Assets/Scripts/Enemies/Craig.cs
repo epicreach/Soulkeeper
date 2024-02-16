@@ -16,9 +16,12 @@ public class Craig : MonoBehaviour
     private float attackCooldownTimer = Mathf.Infinity;
 
     private Animator animator;
+
+    private EnemyAttackController attackController;
     
     private void Awake(){
         animator = GetComponent<Animator>();
+        attackController = GetComponent<EnemyAttackController>();
     }
 
     private void Update()
@@ -34,6 +37,7 @@ public class Craig : MonoBehaviour
                 // Attack left
                 attackCooldownTimer = 0;
                 animator.SetTrigger("attack_left");
+                attackController.attack();
             }
         }
 
@@ -45,6 +49,7 @@ public class Craig : MonoBehaviour
                 // Attack right
                 attackCooldownTimer = 0;
                 animator.SetTrigger("attack_right");
+                attackController.attack();
             }
         }
     }

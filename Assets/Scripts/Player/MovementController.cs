@@ -20,6 +20,10 @@ public class PlayerController : MonoBehaviour
     public float dashForce = 2f;
     public float dashDuration = 0.4f;
     private bool isDashing = false;
+
+    private float dashCooldownTimer = Mathf.Infinity;
+    [SerializeField] private float dashCooldown;
+
     public DefaultPlayerInputs input = null;
 
     private TouchingDirections touchingDirections;
@@ -62,8 +66,8 @@ public class PlayerController : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, 0);
             return;
         }
-
-         rb.velocity = new Vector2(inputVector.x * walkSpeed, rb.velocity.y);
+        dashCooldownTimer += Time.deltaTime;
+        rb.velocity = new Vector2(inputVector.x * walkSpeed, rb.velocity.y);
         
     }
 
@@ -86,7 +90,10 @@ public class PlayerController : MonoBehaviour
     }
 
     private void OnDashPerformed(InputAction.CallbackContext context) {
-        StartCoroutine(Dash());
+        if (dashCooldownTimer >= dashCooldown) {
+            StartCoroutine(Dash());
+            dashCooldownTimer = 0;
+        }
     }
 
     IEnumerator Dash()

@@ -10,30 +10,52 @@ public class Grog : MonoBehaviour
     [SerializeField] private BoxCollider2D boxCollider;
     [SerializeField] private LayerMask playerLayer;
 
+    [SerializeField] private Damagable damagable;
+
+    [SerializeField] private EnemyAttackController attackController;
+
+
     private float attackCooldownTimer = Mathf.Infinity;
 
     private EnemyPatrol enemyPatrol;
 
     private Animator animator;
 
+    private int health;
+
+
     private void Awake(){
         animator = GetComponent<Animator>();
         enemyPatrol = GetComponentInParent<EnemyPatrol>();
+        damagable = GetComponent<Damagable>();
+        health = damagable.MaxHealth;
     }
 
     private void Update()
     {
        attackCooldownTimer += Time.deltaTime;
 
+       if(damagable.Health == 0){
+              animator.SetTrigger("death");
+              Destroy(boxCollider);
+       }
+
+       if(damagable.Health < health){
+              health = damagable.Health;
+              animator.SetTrigger("hurt");
+       }
+
         //attack if sees player
         if(seesPlayer())
         {
             Debug.Log("attacked"); 
+        
             if(attackCooldownTimer >= attackCooldown)
             {
                 // Attack
                 attackCooldownTimer = 0;
                 animator.SetTrigger("attack");
+                attackController.attack();
             }
         }
 

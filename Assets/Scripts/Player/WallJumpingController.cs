@@ -13,8 +13,8 @@ public class WallJumpingController : MonoBehaviour
     
     // Wall jumping variables
     private bool isWallJumping;
-    private float wallJumpingDuration = 0.6f;
-    private Vector2 wallJumpForce = new Vector2(6.0f, 3.0f);
+    [SerializeField] private float wallJumpingDuration;
+    [SerializeField] private Vector2 wallJumpForce;
 
 
     private Rigidbody2D rb;

@@ -8,9 +8,11 @@ public class SwordController : MonoBehaviour
 
     DefaultPlayerInputs input;
     Animator animator;
+
     BoxCollider2D boxCollider;
-    [SerializeField] private float attackCooldown;
+
     private float attackCooldownTimer = Mathf.Infinity;
+    [SerializeField] private float attackCooldown;
 
     void Awake() {
         boxCollider = GetComponent<BoxCollider2D>();
@@ -69,8 +71,4 @@ public class SwordController : MonoBehaviour
         attackCooldownTimer = 0;    
         }
     }
-
-
-
-
 }
