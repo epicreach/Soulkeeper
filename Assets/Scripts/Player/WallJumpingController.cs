@@ -9,6 +9,8 @@ public class WallJumpingController : MonoBehaviour
     // Wall sliding variables
     private bool isWallSliding;
     private float wallSlidingSpeed = 0.2f;
+
+    float direction;
     
     // Wall jumping variables
     private bool isWallJumping;
@@ -45,7 +47,6 @@ public class WallJumpingController : MonoBehaviour
 
         if (isWallJumping) {
             Debug.Log("WallJumped");
-            float direction = -playerController.inputVector.x;
             playerController.input.Player.Disable();
             rb.velocity = new Vector2(direction * wallJumpForce.x, wallJumpForce.y);
             playerController.input.Player.Enable();
@@ -71,6 +72,7 @@ public class WallJumpingController : MonoBehaviour
     }
 
     void WallJump() {
+        direction = -playerController.inputVector.x;
 
         if (isWallSliding) {
             isWallJumping = true;
