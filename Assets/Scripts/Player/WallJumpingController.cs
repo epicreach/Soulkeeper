@@ -9,12 +9,11 @@ public class WallJumpingController : MonoBehaviour
     // Wall sliding variables
     private bool isWallSliding;
     private float wallSlidingSpeed = 0.2f;
-    private float direction;
     
     // Wall jumping variables
     private bool isWallJumping;
-    [SerializeField] private float wallJumpingDuration;
-    [SerializeField] private Vector2 wallJumpForce;
+    private float wallJumpingDuration = 0.8f;
+    private Vector2 wallJumpForce = new Vector2(6.0f, 3.0f);
 
 
     private Rigidbody2D rb;
@@ -46,8 +45,11 @@ public class WallJumpingController : MonoBehaviour
 
         if (isWallJumping) {
             Debug.Log("WallJumped");
-            //direction = -playerController.inputVector.x;
+            float direction = -playerController.inputVector.x;
+            playerController.input.Player.Disable();
             rb.velocity = new Vector2(direction * wallJumpForce.x, wallJumpForce.y);
+            playerController.input.Player.Enable();
+
         }
 
     }
@@ -73,18 +75,15 @@ public class WallJumpingController : MonoBehaviour
         if (isWallSliding) {
             isWallJumping = true;
             Invoke("StopWallJump", wallJumpingDuration);
-            direction = -playerController.inputVector.x;
-            playerController.input.Player.Disable();
-            rb.velocity = new Vector2(direction * wallJumpForce.x, wallJumpForce.y);
-            playerController.input.Player.Enable();
         }
 
     }
 
     void StopWallJump() {
         isWallJumping = false;
-        playerController.input.Player.Enable();
     }
+
+    
 
 
 
