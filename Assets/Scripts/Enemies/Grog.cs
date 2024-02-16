@@ -37,7 +37,8 @@ public class Grog : MonoBehaviour
 
        if(damagable.Health == 0){
               animator.SetTrigger("death");
-              Destroy(boxCollider);
+              Destroy(enemyPatrol.gameObject);
+              Destroy(this.gameObject);
        }
 
        if(damagable.Health < health){

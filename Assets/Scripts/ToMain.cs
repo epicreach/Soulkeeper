@@ -4,11 +4,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-public class GoToBoss : MonoBehaviour
+public class ToMain : MonoBehaviour
 {
     
-    public void goToBoss(){
-        SceneManager.LoadSceneAsync(2);
+    public void toMain(){
+        SceneManager.LoadSceneAsync(0);
     }
 
 }

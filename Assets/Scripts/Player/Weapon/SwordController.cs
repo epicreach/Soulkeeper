@@ -62,10 +62,9 @@ public class SwordController : MonoBehaviour
         {
         boxCollider.enabled = true;
         animator.Play("SwordAttack1");
-        boxCollider.enabled = false;
+        Invoke("DisableCollisionBox", swordCooldown);
         attackCooldownTimer = 0;    
-        }        Invoke("DisableCollisionBox", swordCooldown);
-
+        }        
     }
 
     void DisableCollisionBox() {

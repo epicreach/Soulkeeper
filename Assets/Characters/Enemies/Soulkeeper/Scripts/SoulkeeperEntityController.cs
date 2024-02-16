@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class SoulkeeperEntityController : MonoBehaviour
 {
@@ -30,6 +32,7 @@ public class SoulkeeperEntityController : MonoBehaviour
 
         if (damagable.Health <= 0) {
             Destroy(gameObject);
+            SceneManager.LoadSceneAsync(3);
         }
     }
 

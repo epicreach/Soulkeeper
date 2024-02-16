@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Rendering;
+using UnityEngine.SceneManagement;
+
 
 [DefaultExecutionOrder(-1)] // Set the execution order to -1 for MovementController
 [RequireComponent(typeof(Rigidbody2D), typeof(TouchingDirections))]
@@ -32,7 +34,11 @@ public class PlayerController : MonoBehaviour
 
     public Vector2 inputVector = Vector2.zero;
 
+    [SerializeField] private Damagable damagable;
+
     Rigidbody2D rb;
+
+    private int health;
 
     private void Awake() {
         touchingDirections = GetComponent<TouchingDirections>();
@@ -40,6 +46,8 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        damagable = GetComponent<Damagable>();
+        health = damagable.MaxHealth;
     }
 
     private void OnEnable() {
@@ -61,6 +69,10 @@ public class PlayerController : MonoBehaviour
 
 
     void FixedUpdate() {
+
+        if(damagable.Health == 0){
+            SceneManager.LoadSceneAsync(4);
+       }
 
         if (isDashing || isRolling) {
             rb.velocity = new Vector2(rb.velocity.x, 0);
