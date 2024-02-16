@@ -11,7 +11,8 @@ public class SwordController : MonoBehaviour
     public AudioSource audioSrc;
     public AudioClip clip;
     BoxCollider2D boxCollider;
-
+    [SerializeField]
+    float swordCooldown = 0.7f;
     private float attackCooldownTimer = Mathf.Infinity;
     [SerializeField] private float attackCooldown;
 
@@ -58,7 +59,7 @@ public class SwordController : MonoBehaviour
         boxCollider.enabled = false;
     }
 
-    void OnTriggerExit(Collider2D other)
+    void OnTriggerExit2D(Collider2D other)
     {
         boxCollider.enabled = false;
     }
