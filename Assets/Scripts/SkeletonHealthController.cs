@@ -14,12 +14,7 @@ public class SkeletonHealthController : MonoBehaviour
     private Rigidbody2D rb;
     float timer = 1.1f;
     bool isAlive = true;
-    int previousHealth = 100;
     Damagable damageable;
-    [SerializeField]
-    AudioSource audioSrc;
-    [SerializeField]
-    AudioClip hit;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -32,11 +27,6 @@ public class SkeletonHealthController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (previousHealth > damageable.Health)
-        {
-            audioSrc.PlayOneShot(hit);
-        }
-        previousHealth = damageable.Health;
         if(timer <= 0)
         {
             GameObject.Destroy(gameObject);

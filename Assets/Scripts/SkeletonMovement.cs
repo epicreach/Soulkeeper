@@ -22,8 +22,6 @@ public class SkeletonMovement : MonoBehaviour
     public float sightDistance = 3.0f;
     bool facingRight;
     public float patrolDistance = 3.0f;
-    [SerializeField]
-    AudioSource audioSrc;
     private void Start()
     {
         playerBody = FindObjectOfType<PlayerController>().gameObject.GetComponent<Rigidbody2D>();
@@ -50,12 +48,10 @@ public class SkeletonMovement : MonoBehaviour
 
         if (stop)
         {
-            
             rb.velocity = new Vector2(0, 0);
         }
         if (!stop)
         {
-            
             calculatePatrolStatus();
             if (patrol)
             {
@@ -152,15 +148,6 @@ public class SkeletonMovement : MonoBehaviour
     }
     public void setStopState(bool stopState)
     {
-        if (stopState)
-        {
-            audioSrc.Stop();
-        }
-        else
-        {
-            audioSrc.Play();
-        }
-        
         stop = stopState;
     }
     public bool getStopState()
