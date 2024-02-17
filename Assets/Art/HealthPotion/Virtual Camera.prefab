@@ -120,6 +120,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6942068082902286914}
+  - {fileID: 4997064017718666496}
   - {fileID: 2248865470173949663}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -203,8 +204,7 @@ Transform:
   m_LocalPosition: {x: -6.8512, y: -2.8263, z: 11.091038}
   m_LocalScale: {x: 1.7674, y: 1.7674, z: 1.7674}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4997064017718666496}
+  m_Children: []
   m_Father: {fileID: 2476427018066811260}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3833569384751061879
@@ -285,12 +285,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7240027824384069236}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.032, y: 0.022, z: 11}
-  m_LocalScale: {x: 1.2770237, y: 1.2770237, z: 1.2770237}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.9395695, y: -2.8245325, z: 30.532438}
+  m_LocalScale: {x: 0.26511002, y: 0.26511002, z: 0.26511002}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2248865470173949663}
+  m_Father: {fileID: 2476427018066811260}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &659304404007556706
 SpriteRenderer:
@@ -332,7 +332,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1431225015
   m_SortingLayer: 1
-  m_SortingOrder: 3
+  m_SortingOrder: 9
   m_Sprite: {fileID: 1203883196, guid: daa359c07b4be2f47b477ca2857b031a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -356,7 +356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c3bc9d5cddb35a42846cec5ec62e774, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noPotion: {fileID: 21300000, guid: e2091bb2c7db750448a69ebd336c8a63, type: 2}
-  onePotion: {fileID: 21300000, guid: f3d9da9acfb618645bb7e69ffe5913f4, type: 2}
-  TwoPotion: {fileID: 21300000, guid: 023dfc3c8d4c7c444b5b997bb5efb5fa, type: 2}
-  ThreePotion: {fileID: 21300000, guid: 175e1df269a9e3e4db82c2b58234b62f, type: 2}
+  noPotion: {fileID: 21300000, guid: 40a11e64c4a1d0b47a0c0bed305b46c9, type: 3}
+  onePotion: {fileID: 21300000, guid: 2fba52360d4984d40afb4dc5ad8f9dc8, type: 3}
+  TwoPotion: {fileID: 21300000, guid: b7ad166f907b061448600b711a3f0637, type: 3}
+  ThreePotion: {fileID: 637671794, guid: 3c3498a82b8b23d4fa03059425a447a7, type: 3}
