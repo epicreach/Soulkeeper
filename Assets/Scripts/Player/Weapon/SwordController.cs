@@ -42,43 +42,27 @@ public class SwordController : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
 
-        // Check if the collider is an enemy
+        if (boxCollider.enabled == false) return;
 
         boxCollider.enabled = false;
         Damagable damageable = other.gameObject.GetComponent<Damagable>();
+        
         if (damageable != null)
         {
             damageable.Hit(20);
         }
+
+
     }
 
-    void OnTriggerStay2D(Collider2D other)
-    {
-        boxCollider.enabled = false;
-    }
-
-    void OnTriggerExit2D(Collider2D other)
-    {
-        boxCollider.enabled = false;
-    }
 
     void OnAttackPerformed(InputAction.CallbackContext context) {
 
-        if(attackCooldownTimer > attackCooldown)
-        {
         boxCollider.enabled = true;
         animator.Play("SwordAttack1");
         Invoke("DisableCollisionBox", swordCooldown);
-        attackCooldownTimer = 0;    
         audioSrc.PlayOneShot(clip);
-        }      
-
     }
-
-    
-
- 
-        
 
     
     void DisableCollisionBox() {
