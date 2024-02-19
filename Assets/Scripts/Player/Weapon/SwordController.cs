@@ -13,7 +13,6 @@ public class SwordController : MonoBehaviour
     BoxCollider2D boxCollider;
     [SerializeField]
     float swordCooldown = 0.7f;
-    private float attackCooldownTimer = Mathf.Infinity;
     [SerializeField] private float attackCooldown;
 
     void Awake() {
@@ -21,11 +20,6 @@ public class SwordController : MonoBehaviour
         boxCollider.enabled = false;
         input = new DefaultPlayerInputs();
         animator = GetComponent<Animator>();
-    }
-
-    private void Update()
-    {
-       attackCooldownTimer += Time.deltaTime;
     }
 
     void OnEnable() {
