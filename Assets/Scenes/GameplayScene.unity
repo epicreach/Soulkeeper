@@ -34266,6 +34266,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkeletonEnemy
       objectReference: {fileID: 0}
+    - target: {fileID: 1564060511280136630, guid: c4fa3172583b01d4c9b92bb73c5207d4, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4499874652101723593, guid: c4fa3172583b01d4c9b92bb73c5207d4, type: 3}
       propertyPath: attackDistance
       value: 2.98
