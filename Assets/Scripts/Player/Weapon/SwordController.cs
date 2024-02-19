@@ -41,11 +41,9 @@ public class SwordController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
+
         // Check if the collider is an enemy
-        if (other.CompareTag("Enemy"))
-        {
-            Debug.Log("Enemy hit!");
-        }
+
         boxCollider.enabled = false;
         Damagable damageable = other.gameObject.GetComponent<Damagable>();
         if (damageable != null)

@@ -192,9 +192,11 @@ MonoBehaviour:
   walkSpeed: 5
   dashForce: 2
   dashDuration: 0.4
+  dashCooldown: 0
   audioSrc: {fileID: 3884670616075650692}
   spriteRenderer: {fileID: 0}
   inputVector: {x: 0, y: 0}
+  damagable: {fileID: 0}
 --- !u!114 &1889166923880529645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -458,6 +460,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSrc: {fileID: 3967541658145040221}
   clip: {fileID: 8300000, guid: d8b5719f5fe538b4e9254a5c70320fee, type: 3}
+  swordCooldown: 0.7
+  attackCooldown: 0
 --- !u!82 &3884670616075650692
 AudioSource:
   m_ObjectHideFlags: 0
